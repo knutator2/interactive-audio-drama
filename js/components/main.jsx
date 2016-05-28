@@ -1,4 +1,8 @@
 var React = require('react');
+
+var HeaderComponent = require('./header.jsx');
+var FooterComponent = require('./footer.jsx');
+require('whatwg-fetch');
     // EventEmitter = require('events').EventEmitter,
 
 var MainComponent = React.createClass({
@@ -7,13 +11,25 @@ var MainComponent = React.createClass({
         return {};
     },
 
-    componentWillMount: function() {
+    componentDidMount: function() {
+        var self = this;
+        fetch('/data/master.json')
+            .then(function(response) {
+                return response.json();
+            })
+            .then(function(result) {
+                self.setState({ title: result.title, nodes: result.nodes});
+            });
     },
 
     render: function() {
         return (
             <div>
-                <h1>Hello Knut!</h1>
+                <HeaderComponent title={this.state.title} />
+                <div>
+                    <h1>Hello Knut!</h1>
+                </div>
+                <FooterComponent />
             </div>
         );
     }
