@@ -2,13 +2,16 @@ var React = require('react');
 
 var HeaderComponent = require('./header.jsx');
 var FooterComponent = require('./footer.jsx');
+var DecisionComponent = require('./decision.jsx');
 require('whatwg-fetch');
-    // EventEmitter = require('events').EventEmitter,
+//var EventEmitter = require('events').EventEmitter,
 
 var MainComponent = React.createClass({
 
     getInitialState: function() {
-        return {};
+        return {
+            currentNodeId : 0
+        };
     },
 
     componentDidMount: function() {
@@ -22,13 +25,25 @@ var MainComponent = React.createClass({
             });
     },
 
+    decisionFunction :  function(id) {
+
+        console.log(id);
+        this.setState({currentNodeId: id});
+        console.log(this);
+
+    },
+
     render: function() {
+        var self = this;
+        console.log(self.state);
+        var currentNode = self.state.nodes ? self.state.nodes[self.state.currentNodeId] : {};
+        console.log(currentNode);
         return (
             <div>
                 <HeaderComponent title={this.state.title} />
-                <div>
-                    <h1>Hello Knut!</h1>
-                </div>
+
+                <DecisionComponent decisions={currentNode.decisions} infobox={currentNode.infobox} onDecision={this.decisionFunction}/>
+
                 <FooterComponent />
             </div>
         );
