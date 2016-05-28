@@ -30,6 +30,7 @@
   "dependencies": {
     "browserify": "^13.0.1",
     "react": "^15.1.0",
+    "react-dom": "^15.1.0",
     "reactify": "^1.1.1",
     "uglify-js": "^2.6.2",
     "underscore": "^1.8.3",

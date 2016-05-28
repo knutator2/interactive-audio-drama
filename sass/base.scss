@@ -1,0 +1,19 @@
+@import "variables";
+
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300);
+
+html {
+    background-color: $colorWhite;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    font-size: 26px;
+    min-width: 320px;
+
+    @include tablet {
+        font-size: 32px;
+    }
+
+    @include desktop {
+        font-size: 40px;
+    }
+}
