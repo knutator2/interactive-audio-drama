@@ -1,0 +1,84 @@
+{
+  "title" : "My Awesome Title",
+  "nodes" : [
+   {
+     "id": 0,
+     "headline" : "Intro Headline",
+     "img" : "/data/img/intro.jpg",
+     "audio" : "/data/audio/intro.mp3",
+     "isLast" : false,
+     "decisions" : [
+       {
+         "label" : "NextLabel1",
+         "targetId" : 1
+       },
+       {
+         "label" : "NextLabel2",
+         "targetId" : 2
+       }
+     ],
+     "infobox" : {
+       "text" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+       "facts" : [
+         "Fact1", "Fact2", "Fact3"
+       ]
+     }
+   },
+   {
+     "id": 1,
+     "headline" : "Node1",
+     "img" : "/data/img/node1.jpg",
+     "audio" : "/data/audio/node1.mp3",
+     "decisions" : [
+       {
+         "label" : "NextLabel3",
+         "targetId" : 3
+       },
+       {
+         "label" : "NextLabel4",
+         "targetId" : 3
+       }
+     ],
+     "infobox" : {
+       "text" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+       "facts" : [
+         "Fact1", "Fact2", "Fact3"
+       ]
+     }
+   },
+   {
+     "id": 2,
+     "headline" : "Intro Node2",
+     "img" : "/data/img/node2.jpg",
+     "audio" : "/data/audio/node2.mp3",
+     "decisions" : [
+       {
+         "label" : "NextLabel5",
+         "targetId" : 3
+       },
+       {
+         "label" : "NextLabel6",
+         "targetId" : 3
+       }
+     ],
+     "infobox" : {
+       "text" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+       "facts" : [
+         "Fact1", "Fact2", "Fact3"
+       ]
+     }
+   },
+   {
+     "id": 3,
+     "headline" : "Last Headline",
+     "img" : "/data/img/last.jpg",
+     "audio" : "/data/audio/last.mp3",
+     "infobox" : {
+       "text" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+       "facts" : [
+         "Fact1", "Fact2", "Fact3"
+       ]
+     }
+   }
+ ]
+}
