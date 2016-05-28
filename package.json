@@ -1,0 +1,38 @@
+{
+  "name": "interactive-audio-drama",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "npm run watch-sass & npm run watch-js",
+    "build": "npm run build-sass & npm run build-js",
+    "watch-sass": "sass --compass --watch sass/bundle.scss:build/bundle.css",
+    "watch-js": "watchify app.js -t reactify -o build/bundle.js -dv --debug",
+    "build-sass": "compass compile sass/bundle.scss --css-dir build/ --time --output-style=compressed",
+    "build-js": "browserify app.js -t reactify --debug | uglifyjs -mc > build/bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ThomasFett/interactive-audio-drama.git"
+  },
+  "keywords": [
+    "audio",
+    "drama",
+    "interaction"
+  ],
+  "author": "Knut Perseke & Thomas Fett",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ThomasFett/interactive-audio-drama/issues"
+  },
+  "homepage": "https://github.com/ThomasFett/interactive-audio-drama",
+  "dependencies": {
+    "browserify": "^13.0.1",
+    "react": "^15.1.0",
+    "reactify": "^1.1.1",
+    "uglify-js": "^2.6.2",
+    "underscore": "^1.8.3",
+    "watchify": "^3.7.0"
+  }
+}
