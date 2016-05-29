@@ -9,8 +9,8 @@ var HeaderComponent = React.createClass({
 
     render: function() {
         return (
-            <header>
-                <h1>{this.props.title}</h1>
+            <header className="header">
+                <h1 className="header__headline">{this.props.title}</h1>
             </header>
         );
     }

@@ -17,3 +17,15 @@ html {
         font-size: 40px;
     }
 }
+
+h1 {
+    font-size: $fontSizeL;
+}
+
+h2 {
+    font-size: $fontSizeM;
+}
+
+p {
+    font-size: $fontSizeS;
+}
