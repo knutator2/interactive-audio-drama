@@ -34,6 +34,9 @@ var AudioplayerComponent = React.createClass({
 
     audioFinishedHandler: function() {
         this.props.onAudioFinished();
+        this.setState({
+            playing: false
+        });
     },
 
     render: function() {

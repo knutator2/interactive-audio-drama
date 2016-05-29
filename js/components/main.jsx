@@ -11,7 +11,8 @@ var MainComponent = React.createClass({
 
     getInitialState: function() {
         return {
-            currentNodeId : 0
+            currentNodeId : 0,
+            decisionsAreHidden: true
         };
     },
 
@@ -26,29 +27,35 @@ var MainComponent = React.createClass({
             });
     },
 
-    decisionFunction :  function(id) {
-
-        console.log(id);
+    decisionFunction:  function(id) {
         this.setState({currentNodeId: id});
-        console.log(this);
+    },
 
+    showDecisions: function() {
+        this.setState({decisionsAreHidden: false});
     },
 
     render: function() {
         var self = this;
-        console.log(self.state);
         var currentNode = self.state.nodes ? self.state.nodes[self.state.currentNodeId] : {};
-        console.log(currentNode);
+        var showDecisionsButton = this.state.decisionsAreHidden
+            ? <button onClick={this.showDecisions}>Show Infobox and possible decisions</button>
+            : '';
+
         return (
             <div className="main-wrapper">
                 <HeaderComponent title={this.state.title} />
                 <div className="main">
-                    <AudioplayerComponent darkTheme={false}/>
-                    <div>
-                        <h1>Hello Knut!</h1>
-                    </div>
+                    <AudioplayerComponent darkTheme={false} onAudioFinished={this.showDecisions}/>
 
-                    <DecisionComponent decisions={currentNode.decisions} infobox={currentNode.infobox} onDecision={this.decisionFunction}/>
+                    {showDecisionsButton}
+
+                    <DecisionComponent
+                        isHidden={this.state.decisionsAreHidden}
+                        decisions={currentNode.decisions}
+                        infobox={currentNode.infobox}
+                        onDecision={this.decisionFunction}
+                    />
                 </div>
                 <FooterComponent />
             </div>
