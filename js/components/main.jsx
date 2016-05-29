@@ -28,7 +28,10 @@ var MainComponent = React.createClass({
     },
 
     decisionFunction:  function(id) {
-        this.setState({currentNodeId: id});
+        this.setState({
+            currentNodeId: id,
+            decisionsAreHidden: true
+        });
     },
 
     showDecisions: function() {
@@ -46,7 +49,12 @@ var MainComponent = React.createClass({
             <div className="main-wrapper">
                 <HeaderComponent title={this.state.title} />
                 <div className="main">
-                    <AudioplayerComponent darkTheme={false} onAudioFinished={this.showDecisions}/>
+                    <AudioplayerComponent
+                        audioFile={currentNode.audio}
+                        backgroundImage={currentNode.backgroundImage}
+                        darkTheme={currentNode.darkTheme}
+                        onAudioFinished={this.showDecisions}
+                    />
 
                     {showDecisionsButton}
 

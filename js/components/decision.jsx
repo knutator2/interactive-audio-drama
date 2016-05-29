@@ -14,7 +14,6 @@ var DecisionComponent = React.createClass({
 
     onDecision : function(data) {
         this.props.onDecision(data.targetId);
-        console.log(data);
     },
 
     render: function() {

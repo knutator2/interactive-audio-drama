@@ -5,19 +5,23 @@ var React = require('react'),
 var AudioplayerComponent = React.createClass({
 
     getInitialState: function() {
-        var waveColor = this.props.darkTheme ? '#222' : '#ddd';
-        var progressColor = this.props.darkTheme ? '000' : '#fff';
-
         return {
-            audioFile: '/data/audio/MoufflonMusic.mp3',
-            backgroundImage: '/data/images/background.jpg',
             playing: false,
-            pos: 0,
+            pos: 0
+        };
+    },
+
+    componentWillReceiveProps: function(nextProps) {
+        // TODO: Fix this! It doesn't work, because the options are only applied on instantiating the wavesurfer player.
+        var waveColor = nextProps.darkTheme ? '#222' : '#ddd';
+        var progressColor = nextProps.darkTheme ? '000' : '#fff';
+
+        this.setState({
             wavesurferOptions: {
                 waveColor: waveColor,
                 progressColor: progressColor
             }
-        };
+        });
     },
 
     playAudio: function() {
@@ -39,6 +43,13 @@ var AudioplayerComponent = React.createClass({
         });
     },
 
+    audioLoadedHandler: function() {
+        this.setState({
+            playing: false,
+            pos: 0
+        });
+    },
+
     render: function() {
         var buttonPlayClass = classNames(
             'audioplayer__button-play',
@@ -53,13 +64,14 @@ var AudioplayerComponent = React.createClass({
         return (
             <div className="audioplayer">
                 <Wavesurfer
-                    audioFile="http://localhost:8080/data/audio/MoufflonMusic.mp3"
+                    audioFile={this.props.audioFile}
                     pos={this.state.pos}
                     playing={this.state.playing}
                     options={this.state.wavesurferOptions}
                     onFinish={this.audioFinishedHandler}
+                    onLoading={this.audioLoadedHandler}
                 />
-                <img className="audioplayer__background-image" src={this.state.backgroundImage} />
+                <img className="audioplayer__background-image" src={this.props.backgroundImage} />
                 <button className={buttonPlayClass} onClick={this.playAudio} />
                 <button className={buttonPauseClass} onClick={this.pauseAudio} />
             </div>
