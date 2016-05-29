@@ -4,7 +4,7 @@
    {
      "id": 0,
      "headline" : "Intro Headline",
-     "img" : "/data/img/intro.jpg",
+     "img" : "/data/images/background.jpg",
      "audio" : "/data/audio/intro.mp3",
      "isLast" : false,
      "decisions" : [
@@ -27,7 +27,7 @@
    {
      "id": 1,
      "headline" : "Node1",
-     "img" : "/data/img/node1.jpg",
+     "backgroundImage" : "/data/images/node1.jpg",
      "audio" : "/data/audio/node1.mp3",
      "decisions" : [
        {
@@ -49,7 +49,7 @@
    {
      "id": 2,
      "headline" : "Intro Node2",
-     "img" : "/data/img/node2.jpg",
+     "backgroundImage" : "/data/images/node2.jpg",
      "audio" : "/data/audio/node2.mp3",
      "decisions" : [
        {
@@ -71,7 +71,7 @@
    {
      "id": 3,
      "headline" : "Last Headline",
-     "img" : "/data/img/last.jpg",
+     "backgroundImage" : "/data/images/last.jpg",
      "audio" : "/data/audio/last.mp3",
      "infobox" : {
        "text" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
