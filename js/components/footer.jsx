@@ -12,8 +12,8 @@ var FooterComponent = React.createClass({
 
     render: function() {
         return (
-            <footer>
-                <h1>Footer</h1>
+            <footer className="footer">
+                <p className="footer__text">Footer, more tbd...</p>
             </footer>
         );
     }

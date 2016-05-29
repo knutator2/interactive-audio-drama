@@ -40,15 +40,16 @@ var MainComponent = React.createClass({
         var currentNode = self.state.nodes ? self.state.nodes[self.state.currentNodeId] : {};
         console.log(currentNode);
         return (
-            <div>
+            <div className="main-wrapper">
                 <HeaderComponent title={this.state.title} />
-                <AudioplayerComponent darkTheme={false}/>
-                <div>
-                    <h1>Hello Knut!</h1>
+                <div className="main">
+                    <AudioplayerComponent darkTheme={false}/>
+                    <div>
+                        <h1>Hello Knut!</h1>
+                    </div>
+
+                    <DecisionComponent decisions={currentNode.decisions} infobox={currentNode.infobox} onDecision={this.decisionFunction}/>
                 </div>
-
-                <DecisionComponent decisions={currentNode.decisions} infobox={currentNode.infobox} onDecision={this.decisionFunction}/>
-
                 <FooterComponent />
             </div>
         );

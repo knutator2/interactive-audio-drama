@@ -7,7 +7,9 @@ html {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
     font-size: 26px;
+    min-height: 100vh;
     min-width: 320px;
+    position: relative;
 
     @include tablet {
         font-size: 32px;
@@ -16,6 +18,19 @@ html {
     @include desktop {
         font-size: 40px;
     }
+}
+
+.main-wrapper {
+    @include display-flex;
+    @include flex-direction(column);
+
+    min-height: 100vh;
+}
+
+.main {
+    @include flex(1 0 auto);
+
+    margin-bottom: 28px;
 }
 
 h1 {
