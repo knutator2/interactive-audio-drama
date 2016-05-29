@@ -1,0 +1,24 @@
+.infobox {
+    border: 2px solid $colorBlack;
+    border-radius: 14px;
+    margin: 14px auto;
+    max-width: $textWidth;
+    padding: 14px;
+}
+
+.infobox__headline {
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.infobox__text {
+    margin-bottom: 10px;
+}
+
+.infobox__list {
+    font-size: $fontSizeS;
+
+    li::before {
+        content:"- ";
+    }
+}

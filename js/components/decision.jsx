@@ -1,7 +1,6 @@
 var React = require('react');
-// EventEmitter = require('events').EventEmitter,
-
 var InfoBoxComponent = require('./infobox.jsx');
+var ButtonComponent = require('./button.jsx');
 
 var DecisionComponent = React.createClass({
 
@@ -29,11 +28,11 @@ var DecisionComponent = React.createClass({
             );
         } else {
             return (
-                <div>
+                <div className="decision">
                     <InfoBoxComponent text={infobox.text} facts={infobox.facts} />
                     {decisions.map(function(data, i, list) {
                         var boundClick = self.onDecision.bind(self, data);
-                        return <div key={i}><button onClick={boundClick}>{data.label}</button></div>
+                        return <ButtonComponent label={data.label} onClick={boundClick} key={i} />
                     })}
                 </div>
             );

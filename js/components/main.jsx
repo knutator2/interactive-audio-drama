@@ -2,10 +2,10 @@ var React = require('react');
 
 var HeaderComponent = require('./header.jsx');
 var FooterComponent = require('./footer.jsx');
+var ButtonComponent = require('./button.jsx');
 var AudioplayerComponent = require('./audioplayer.jsx');
 var DecisionComponent = require('./decision.jsx');
 require('whatwg-fetch');
-//var EventEmitter = require('events').EventEmitter,
 
 var MainComponent = React.createClass({
 
@@ -39,7 +39,7 @@ var MainComponent = React.createClass({
         var self = this;
         var currentNode = self.state.nodes ? self.state.nodes[self.state.currentNodeId] : {};
         var showDecisionsButton = this.state.decisionsAreHidden
-            ? <button onClick={this.showDecisions}>Show Infobox and possible decisions</button>
+            ? <ButtonComponent onClick={this.showDecisions} label='Show Infobox and possible decisions' />
             : '';
 
         return (

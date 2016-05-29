@@ -13,12 +13,12 @@ var InfoboxComponent = React.createClass({
     render: function() {
         var facts = this.props.facts ? this.props.facts : [];
         return (
-            <div>
-                <h2>Infobox</h2>
-                <p>
+            <div className="infobox">
+                <h2 className="infobox__headline">Infobox</h2>
+                <p className="infobox__text">
                     {this.props.text}
                 </p>
-                <ul>
+                <ul className="infobox__list">
                     {facts.map(function(data, i, list) {
                         return (<li key={i}>{data}</li>)
                     })}
