@@ -48,6 +48,7 @@ var MainComponent = React.createClass({
         return (
             <div className="main-wrapper">
                 <HeaderComponent title={this.state.title} />
+                <h3>{currentNode.headline}</h3>
                 <div className="main">
                     <AudioplayerComponent
                         audioFile={currentNode.audio}
@@ -62,6 +63,7 @@ var MainComponent = React.createClass({
                         isHidden={this.state.decisionsAreHidden}
                         decisions={currentNode.decisions}
                         infobox={currentNode.infobox}
+                        headline= {currentNode.headline}
                         onDecision={this.decisionFunction}
                     />
                 </div>
