@@ -1,19 +1,15 @@
 {
-  "title" : "My Awesome Title",
+  "title" : "Energiewende - machs doch selbst",
   "nodes" : [
    {
      "id": 0,
-     "headline" : "Intro Headline",
+     "headline" : "1949: Die BRD wird gegründet. Wie bauen wir nach dem Krieg die Energiewirtschaft wieder auf?",
      "backgroundImage" : "./data/images/background.jpg",
      "audio" : "./data/audio/example01.mp3",
      "decisions" : [
        {
-         "label" : "NextLabel1",
+         "label" : "Nutzung fossiler Brennstoffe",
          "targetId" : 1
-       },
-       {
-         "label" : "NextLabel2",
-         "targetId" : 2
        }
      ],
      "infobox" : {
@@ -25,17 +21,17 @@
    },
    {
      "id": 1,
-     "headline" : "Node1",
+     "headline" : "1955: Atomstrom wird nutzbar.",
      "backgroundImage" : "./data/images/background.jpg",
      "audio" : "./data/audio/example02.mp3",
      "darkTheme": true,
      "decisions" : [
        {
-         "label" : "NextLabel3",
-         "targetId" : 3
+         "label" : "Atomstrom wird genutzt",
+         "targetId" : 2
        },
        {
-         "label" : "NextLabel4",
+         "label" : "Atomstrom wird abgelehnt, Sicherstellung des Primärenergiebedarfs u.a. durch Importe",
          "targetId" : 3
        }
      ],
@@ -48,17 +44,13 @@
    },
    {
      "id": 2,
-     "headline" : "Intro Node2",
+     "headline" : "1968: Erster kommerzieller Atomstrom im Stromnetz (Druckwasserreaktor Obrigheim)",
      "backgroundImage" : "./data/images/background.jpg",
      "audio" : "./data/audio/example02.mp3",
      "decisions" : [
        {
-         "label" : "NextLabel5",
-         "targetId" : 3
-       },
-       {
-         "label" : "NextLabel6",
-         "targetId" : 3
+         "label" : "Weitermachen",
+         "targetId" : 4
        }
      ],
      "infobox" : {
@@ -70,13 +62,419 @@
    },
    {
      "id": 3,
-     "headline" : "Last Headline",
+     "headline" : "Ölkrise, Verteuerung & Endlichkeit der Rohstoffe",
+     "backgroundImage" : "./data/images/background.jpg",
+     "audio" : "./data/audio/example01.mp3",
+     "decisions" : [
+       {
+         "label" : "Atomstrom wird genutzt",
+         "targetId" : 4
+       },
+       {
+         "label" : "Förderung deutscher Tagebauten; Subventionen, “Kohlepfennig”",
+         "targetId" : 5
+       }
+     ],
+     "infobox" : {
+       "text" : "1. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+       "facts" : [
+         "Fact1", "Fact2", "Fact3"
+       ]
+     }
+   },
+   {
+     "id": 4,
+     "headline" : "1986: Tschernobyl Unglück - Ein SPD-Parteitag beschließt den Ausstieg innerhalb von 10 Jahren",
+     "backgroundImage" : "./data/images/background.jpg",
+     "audio" : "./data/audio/example01.mp3",
+     "decisions" : [
+       {
+         "label" : "Weitermachen",
+         "targetId" : 6
+       },
+       {
+         "label" : "Einstieg in die staatliche Förderung EE, ein schrittweiser Ausstieg aus der Atomenergie",
+         "targetId" : 10
+       },
+       {
+         "label" : "Förderung deutscher Tagebauten; Subventionen, “Kohlepfennig”",
+         "targetId" : 5
+       }
+     ],
+     "infobox" : {
+       "text" : "1. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+       "facts" : [
+         "Fact1", "Fact2", "Fact3"
+       ]
+     }
+   },
+   {
+     "id": 5,
+     "headline" : "1997: Kyoto-Protokoll",
+     "backgroundImage" : "./data/images/background.jpg",
+     "audio" : "./data/audio/example01.mp3",
+     "decisions" : [
+       {
+         "label" : "Einstieg in die staatliche Förderung EE, ein schrittweiser Ausstieg aus der Kohle",
+         "targetId" : 10
+       },
+       {
+         "label" : "neue Kernkraftwerke als CO2 ärmere Alternative",
+         "targetId" : 23
+       }
+     ],
+     "infobox" : {
+       "text" : "1. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+       "facts" : [
+         "Fact1", "Fact2", "Fact3"
+       ]
+     }
+   },
+   {
+     "id": 6,
+     "headline" : "2011: Fukushima",
+     "backgroundImage" : "./data/images/background.jpg",
+     "audio" : "./data/audio/example01.mp3",
+     "decisions" : [
+       {
+         "label" : "Festhalten an der Kernerergie",
+         "targetId" : 7
+       },
+       {
+         "label" : "sofortiger Atomausstieg",
+         "targetId" : 13
+       }
+     ],
+     "infobox" : {
+       "text" : "1. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+       "facts" : [
+         "Fact1", "Fact2", "Fact3"
+       ]
+     }
+   },
+   {
+     "id": 7,
+     "headline" : "Super GAU",
+     "backgroundImage" : "./data/images/background.jpg",
+     "audio" : "./data/audio/example01.mp3",
+     "decisions" : [
+       {
+         "label" : "Nochmal Versuchen",
+         "targetId" : 0
+       },
+       {
+         "label" : "Auf einen besseren Pfad springen (schummeln)",
+         "targetId" : 10
+       }
+     ],
+     "infobox" : {
+       "text" : "1. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+       "facts" : [
+         "Fact1", "Fact2", "Fact3"
+       ]
+     }
+   },
+   {
+     "id": 8,
+     "headline" : "2015: Klimavertrag von Paris",
+     "backgroundImage" : "./data/images/background.jpg",
+     "audio" : "./data/audio/example01.mp3",
+     "decisions" : [
+       {
+         "label" : "weiter wie bisher",
+         "targetId" : 9
+       },
+       {
+         "label" : "sofortiger Kohleausstieg",
+         "targetId" : 12
+       }
+     ],
+     "infobox" : {
+       "text" : "1. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+       "facts" : [
+         "Fact1", "Fact2", "Fact3"
+       ]
+     }
+   },
+   {
+     "id": 9,
+     "headline" : "Klimakatastrophe",
+     "backgroundImage" : "./data/images/background.jpg",
+     "audio" : "./data/audio/example01.mp3",
+     "decisions" : [
+       {
+         "label" : "Nochmal versuchen",
+         "targetId" : 0
+       },
+       {
+         "label" : "Zu einem besseren Pfad springen (schummeln)",
+         "targetId" : 10
+       }
+     ],
+     "infobox" : {
+       "text" : "1. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+       "facts" : [
+         "Fact1", "Fact2", "Fact3"
+       ]
+     }
+   },
+   {
+     "id": 10,
+     "headline" : "EEG Entwicklung",
+     "backgroundImage" : "./data/images/background.jpg",
+     "audio" : "./data/audio/example01.mp3",
+     "decisions" : [
+       {
+         "label" : "Einige Jahre vorspringen",
+         "targetId" : 11
+       }
+     ],
+     "infobox" : {
+       "text" : "1. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+       "facts" : [
+         "Fact1", "Fact2", "Fact3"
+       ]
+     }
+   },
+   {
+     "id": 11,
+     "headline" : "Die EEG Umlage wird teurer, immer mehr Menschen können sich keinen Strom leisten",
+     "backgroundImage" : "./data/images/background.jpg",
+     "audio" : "./data/audio/example01.mp3",
+     "decisions" : [
+       {
+         "label" : "Industrieprivileg streichen, es müssen also alle für die Förderung der EE zahlen",
+         "targetId" : 14
+       },
+       {
+         "label" : "konevtionelle Kapazitäten schneller vom Netz nehmen",
+         "targetId" : 15
+       }
+     ],
+     "infobox" : {
+       "text" : "1. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+       "facts" : [
+         "Fact1", "Fact2", "Fact3"
+       ]
+     }
+   },
+   {
+     "id": 12,
+     "headline" : "Tausende verlieren ihre Arbeit, Gewerkschaften und Industrie laufen Sturm",
+     "backgroundImage" : "./data/images/background.jpg",
+     "audio" : "./data/audio/example01.mp3",
+     "decisions" : [
+       {
+         "label" : "am sofortiger Kohleausstieg festhalten",
+         "targetId" : 13
+       }
+     ],
+     "infobox" : {
+       "text" : "1. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+       "facts" : [
+         "Fact1", "Fact2", "Fact3"
+       ]
+     }
+   },
+   {
+     "id": 13,
+     "headline" : "Es kommt zum Zusammenbruch der Elektrizitätsversorgung, die Versorgungssicherheit ist nicht mehr gewährleistet",
+     "backgroundImage" : "./data/images/background.jpg",
+     "audio" : "./data/audio/example01.mp3",
+     "decisions" : [
+       {
+         "label" : "Nochmal versuchen",
+         "targetId" : 0
+       },
+       {
+         "label" : "Auf einen besseren Pfad springen (schummeln)",
+         "targetId" : 10
+       }
+     ],
+     "infobox" : {
+       "text" : "1. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+       "facts" : [
+         "Fact1", "Fact2", "Fact3"
+       ]
+     }
+   },
+   {
+     "id": 14,
+     "headline" : "Die Wirtschaft protestiert energisch. Doch die Umlage sinkt, da sie auf mehrere Schultern verteilt wird.",
+     "backgroundImage" : "./data/images/background.jpg",
+     "audio" : "./data/audio/example01.mp3",
+     "decisions" : [
+       {
+         "label" : "EE werden weiter gefördert, sie sollen jedoch nur ein Teil von vielen im Strommix sein",
+         "targetId" : 16
+       },
+       {
+         "label" : "Die Förderung von EE intensivieren, EE sollen die dominanten Energieträger werden",
+         "targetId" : 17
+       }
+     ],
+     "infobox" : {
+       "text" : "1. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+       "facts" : [
+         "Fact1", "Fact2", "Fact3"
+       ]
+     }
+   },
+   {
+     "id": 15,
+     "headline" : "Das Stromangebot sinkt, also steigen die Preise. Dies bewirkt jedoch ein Absinken der Ummlage. Für die Kunden wird der Strom also billiger",
+     "backgroundImage" : "./data/images/background.jpg",
+     "audio" : "./data/audio/example01.mp3",
+     "decisions" : [
+       {
+         "label" : "EE werden weiter gefördert, sie sollen jedoch nur ein Teil von vielen im Strommix sein",
+         "targetId" : 16
+       },
+       {
+         "label" : "Die Förderung von EE intensivieren, EE sollen die dominanten Energieträger werden",
+         "targetId" : 17
+       }
+     ],
+     "infobox" : {
+       "text" : "1. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+       "facts" : [
+         "Fact1", "Fact2", "Fact3"
+       ]
+     }
+   },
+   {
+     "id": 16,
+     "headline" : "Durch einen nennenswerten Anteil an EE im Strommix sind, zumindest für Deutschland, keine verheerenden Klimaschäden oder Atomunfälle zu erwarten → Für die künftigen Generationen darf hier allerdings nicht halt gemacht werden.",
+     "backgroundImage" : "./data/images/background.jpg",
+     "audio" : "./data/audio/example01.mp3",
+     "decisions" : [
+       {
+         "label" : "Nochmal versuchen",
+         "targetId" : 0
+       },
+       {
+         "label" : "Zurück zur Einführung des EEG",
+         "targetId" : 10
+       }
+     ],
+     "infobox" : {
+       "text" : "1. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+       "facts" : [
+         "Fact1", "Fact2", "Fact3"
+       ]
+     }
+   },
+   {
+     "id": 17,
+     "headline" : "EE machen mittlerweile einen großen Teil der Stromerzeugung aus. Jedoch fallen Last- und Nachfragespitzen immer weiter auseinander",
+     "backgroundImage" : "./data/images/background.jpg",
+     "audio" : "./data/audio/example01.mp3",
+     "decisions" : [
+       {
+         "label" : "Die Netze werden ausgebaut, vor allem um Windstrom aus dem Norden nach Süden zu leiten. Darüber hinaus werden “Smart Grids” und Demand-Side-Management angewandt.",
+         "targetId" : 18
+       },
+       {
+         "label" : "Speicher werden massiv ausgebaut. Power-to-Gas, Druckluftspeicher, Batterien etc. Elektroautos werden in die Speicherinfrastruktur einbezogen.",
+         "targetId" : 19
+       }
+     ],
+     "infobox" : {
+       "text" : "1. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+       "facts" : [
+         "Fact1", "Fact2", "Fact3"
+       ]
+     }
+   },
+   {
+     "id": 18,
+     "headline" : "Erzeugungsspitzen können abgefangen werden, es gibt jedoch Proteste aus der Bevölkerung gegen den Netzausbau",
+     "backgroundImage" : "./data/images/background.jpg",
+     "audio" : "./data/audio/example01.mp3",
+     "decisions" : [
+       {
+         "label" : "Speicher werden massiv ausgebaut. Power-to-Gas, Druckluftspeicher, Batterien etc. Elektroautos werden in die Speicherinfrastruktur einbezogen.",
+         "targetId" : 20
+       }
+     ],
+     "infobox" : {
+       "text" : "1. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+       "facts" : [
+         "Fact1", "Fact2", "Fact3"
+       ]
+     }
+   },
+   {
+     "id": 19,
+     "headline" : "Nachfragespitzen können ausgeglichen werden. Die Investitionen in die Spiecher verteuern allerdings den Strom",
+     "backgroundImage" : "./data/images/background.jpg",
+     "audio" : "./data/audio/example01.mp3",
+     "decisions" : [
+       {
+         "label" : "Die Netze werden ausgebaut, vor allem um Windstrom aus dem Norden nach Süden zu leiten. Darüber hinaus werden “Smart Grids” und Demand-Side-Management angewandt.",
+         "targetId" : 20
+       }
+     ],
+     "infobox" : {
+       "text" : "1. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+       "facts" : [
+         "Fact1", "Fact2", "Fact3"
+       ]
+     }
+   },
+   {
+     "id": 20,
+     "headline" : "Hervorragen: Netze und Speicher werden parallel zum Ausbau der EE gefördert. So kann die Versorgungssicherheit sichergestellt werden.",
+     "backgroundImage" : "./data/images/background.jpg",
+     "audio" : "./data/audio/example01.mp3",
+     "decisions" : [
+       {
+         "label" : "Die Energiewende ist mit 80 % Anteil EE abgeschlossen",
+         "targetId" : 21
+       },
+       {
+         "label" : "Förderung von Energieeffizienzmaßnahmen und der Umstellung der Sektoren Verkehr und Wärme auf Strom",
+         "targetId" : 22
+       }
+     ],
+     "infobox" : {
+       "text" : "1. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+       "facts" : [
+         "Fact1", "Fact2", "Fact3"
+       ]
+     }
+   },
+   {
+     "id": 21,
+     "headline" : "Ein absoluter Großteil der Stromversorgung besteht aus EE. Deutschland hat damit ein Vorreiterrolle im Kampf gegen die globale Erwärmung. Sehr gut!",
+     "backgroundImage" : "./data/images/background.jpg",
+     "audio" : "./data/audio/example01.mp3",
+     "decisions" : [
+       {
+         "label" : "Nochmal versuchen",
+         "targetId" : 0
+       },
+       {
+         "label" : "Nochmal ein Schritt zurück",
+         "targetId" : 20
+       }
+     ],
+     "infobox" : {
+       "text" : "1. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+       "facts" : [
+         "Fact1", "Fact2", "Fact3"
+       ]
+     }
+   },
+   {
+     "id": 22,
+     "headline" : "Energieeffizienz führt zu einer geringeren Stromnachfrage, die überschüssige Energie wird für die Sektoren Wärme und Verkehr genutzt, die damit ebenfalls ohne Treibhausgasemissionen auskommen. Ein bahnbrechender Beitag zum Klimaschutz und zur Rettung der Erde. Glückwunsch!",
      "backgroundImage" : "./data/images/background.jpg",
      "audio" : "./data/audio/example01.mp3",
      "infobox" : {
-       "text" : "4. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+       "text" : "1. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
        "facts" : [
-         "Facte10", "Fact11", "Fact12"
+         "Fact1", "Fact2", "Fact3"
        ]
      }
    }
