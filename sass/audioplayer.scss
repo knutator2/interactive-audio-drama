@@ -29,19 +29,19 @@
 }
 
 .audioplayer__button-play {
-    background-image: url("/assets/icon-audio-play.png");
+    background-image: url("../assets/icon-audio-play.png");
     right: 51%;
 
     &--dark {
-        background-image: url("/assets/icon-audio-play-dark.png");
+        background-image: url("../assets/icon-audio-play-dark.png");
     }
 }
 
 .audioplayer__button-pause {
-    background-image: url("/assets/icon-audio-pause.png");
+    background-image: url("../assets/icon-audio-pause.png");
     left: 51%;
 
     &--dark {
-        background-image: url("/assets/icon-audio-pause-dark.png");
+        background-image: url("../assets/icon-audio-pause-dark.png");
     }
 }
