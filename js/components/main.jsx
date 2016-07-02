@@ -18,7 +18,7 @@ var MainComponent = React.createClass({
 
     componentDidMount: function() {
         var self = this;
-        fetch('/data/master.json')
+        fetch('../data/master.json')
             .then(function(response) {
                 return response.json();
             })
