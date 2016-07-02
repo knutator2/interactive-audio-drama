@@ -4,8 +4,8 @@
    {
      "id": 0,
      "headline" : "Intro Headline",
-     "backgroundImage" : "/data/images/background.jpg",
-     "audio" : "/data/audio/example01.mp3",
+     "backgroundImage" : "./images/background.jpg",
+     "audio" : "./audio/example01.mp3",
      "decisions" : [
        {
          "label" : "NextLabel1",
@@ -26,8 +26,8 @@
    {
      "id": 1,
      "headline" : "Node1",
-     "backgroundImage" : "/data/images/background.jpg",
-     "audio" : "/data/audio/example02.mp3",
+     "backgroundImage" : "./images/background.jpg",
+     "audio" : "./audio/example02.mp3",
      "darkTheme": true,
      "decisions" : [
        {
@@ -49,8 +49,8 @@
    {
      "id": 2,
      "headline" : "Intro Node2",
-     "backgroundImage" : "/data/images/background.jpg",
-     "audio" : "/data/audio/example02.mp3",
+     "backgroundImage" : "./images/background.jpg",
+     "audio" : "./audio/example02.mp3",
      "decisions" : [
        {
          "label" : "NextLabel5",
@@ -71,8 +71,8 @@
    {
      "id": 3,
      "headline" : "Last Headline",
-     "backgroundImage" : "/data/images/background.jpg",
-     "audio" : "/data/audio/example01.mp3",
+     "backgroundImage" : "./images/background.jpg",
+     "audio" : "./audio/example01.mp3",
      "infobox" : {
        "text" : "4. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
        "facts" : [
