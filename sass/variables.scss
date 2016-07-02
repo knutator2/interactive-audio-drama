@@ -1,0 +1,45 @@
+/**
+ * FONTS
+ */
+
+$fontSizeL:     1.00rem;
+$fontSizeM:     0.75rem;
+$fontSizeS:     0.60rem;
+$fontSizeXS:    0.50rem;
+
+
+/**
+ * COLORS
+ */
+
+$colorWhite:    rgba(255, 255, 255, 1.0);
+$colorGreyLight: rgba(230, 230, 230, 1.0);
+$colorBlack:    rgba(0, 0, 0, 1.0);
+
+
+/**
+ * MEDIA WIDTHS
+ */
+
+$contentWidth: 1200px;
+$textWidth: 800px;
+
+$tabletWidth: 640px;
+$desktopWidth: 1000px;
+
+
+/**
+ * MIXINS
+ */
+
+@mixin tablet {
+    @media (min-width: #{$tabletWidth}) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media (min-width: #{$desktopWidth}) {
+        @content;
+    }
+}

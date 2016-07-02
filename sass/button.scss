@@ -1,0 +1,15 @@
+.button {
+    background-color: $colorWhite;
+    border: 2px solid $colorBlack;
+    border-radius: 14px;
+    display: block;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: $fontSizeS;
+    margin: 14px auto;
+    outline: 0;
+    padding: 5px 14px;
+
+    &:active {
+        background-color: $colorGreyLight;
+    }
+}

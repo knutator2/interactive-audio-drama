@@ -1,0 +1,84 @@
+{
+  "title" : "My Awesome Title",
+  "nodes" : [
+   {
+     "id": 0,
+     "headline" : "Intro Headline",
+     "backgroundImage" : "/data/images/background.jpg",
+     "audio" : "/data/audio/example01.mp3",
+     "decisions" : [
+       {
+         "label" : "NextLabel1",
+         "targetId" : 1
+       },
+       {
+         "label" : "NextLabel2",
+         "targetId" : 2
+       }
+     ],
+     "infobox" : {
+       "text" : "1. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+       "facts" : [
+         "Fact1", "Fact2", "Fact3"
+       ]
+     }
+   },
+   {
+     "id": 1,
+     "headline" : "Node1",
+     "backgroundImage" : "/data/images/background.jpg",
+     "audio" : "/data/audio/example02.mp3",
+     "darkTheme": true,
+     "decisions" : [
+       {
+         "label" : "NextLabel3",
+         "targetId" : 3
+       },
+       {
+         "label" : "NextLabel4",
+         "targetId" : 3
+       }
+     ],
+     "infobox" : {
+       "text" : "2. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+       "facts" : [
+         "Fact4", "Fact5", "Fact6"
+       ]
+     }
+   },
+   {
+     "id": 2,
+     "headline" : "Intro Node2",
+     "backgroundImage" : "/data/images/background.jpg",
+     "audio" : "/data/audio/example02.mp3",
+     "decisions" : [
+       {
+         "label" : "NextLabel5",
+         "targetId" : 3
+       },
+       {
+         "label" : "NextLabel6",
+         "targetId" : 3
+       }
+     ],
+     "infobox" : {
+       "text" : "3. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+       "facts" : [
+         "Fact7", "Fact8", "Fact9"
+       ]
+     }
+   },
+   {
+     "id": 3,
+     "headline" : "Last Headline",
+     "backgroundImage" : "/data/images/background.jpg",
+     "audio" : "/data/audio/example01.mp3",
+     "infobox" : {
+       "text" : "4. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+       "facts" : [
+         "Fact10", "Fact11", "Fact12"
+       ]
+     }
+   }
+ ]
+}

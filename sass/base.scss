@@ -1,0 +1,52 @@
+@import "variables";
+
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300);
+
+html {
+    background-color: $colorWhite;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    font-size: 26px;
+    min-height: 100vh;
+    min-width: 320px;
+    position: relative;
+
+    @include tablet {
+        font-size: 32px;
+    }
+
+    @include desktop {
+        font-size: 40px;
+    }
+}
+
+.main-wrapper {
+    @include display-flex;
+    @include flex-direction(column);
+
+    min-height: 100vh;
+}
+
+.main {
+    @include flex(1 0 auto);
+
+    margin: 0 auto 28px;
+    max-width: $contentWidth;
+    width: 100%;
+
+    @include desktop {
+        margin: 28px auto;
+    }
+}
+
+h1 {
+    font-size: $fontSizeL;
+}
+
+h2 {
+    font-size: $fontSizeM;
+}
+
+p {
+    font-size: $fontSizeS;
+}
