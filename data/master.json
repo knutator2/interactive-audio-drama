@@ -24,7 +24,6 @@
      "headline" : "1955: Atomstrom wird nutzbar.",
      "backgroundImage" : "./data/images/background.jpg",
      "audio" : "./data/audio/01.m4a",
-     "darkTheme": true,
      "decisions" : [
        {
          "label" : "Atomstrom wird genutzt",
