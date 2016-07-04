@@ -5,7 +5,7 @@
      "id": 0,
      "headline" : "1949: Die BRD wird gegründet. Wie bauen wir nach dem Krieg die Energiewirtschaft wieder auf?",
      "backgroundImage" : "./data/images/background.jpg",
-     "audio" : "./data/audio/example01.mp3",
+     "audio" : "./data/audio/00.m4a",
      "decisions" : [
        {
          "label" : "Nutzung fossiler Brennstoffe",
@@ -23,8 +23,7 @@
      "id": 1,
      "headline" : "1955: Atomstrom wird nutzbar.",
      "backgroundImage" : "./data/images/background.jpg",
-     "audio" : "./data/audio/example02.mp3",
-     "darkTheme": true,
+     "audio" : "./data/audio/01.m4a",
      "decisions" : [
        {
          "label" : "Atomstrom wird genutzt",
@@ -46,7 +45,7 @@
      "id": 2,
      "headline" : "1968: Erster kommerzieller Atomstrom im Stromnetz (Druckwasserreaktor Obrigheim)",
      "backgroundImage" : "./data/images/background.jpg",
-     "audio" : "./data/audio/example02.mp3",
+     "audio" : "./data/audio/02.m4a",
      "decisions" : [
        {
          "label" : "Weitermachen",
@@ -64,7 +63,7 @@
      "id": 3,
      "headline" : "Ölkrise, Verteuerung & Endlichkeit der Rohstoffe",
      "backgroundImage" : "./data/images/background.jpg",
-     "audio" : "./data/audio/example01.mp3",
+     "audio" : "./data/audio/03.m4a",
      "decisions" : [
        {
          "label" : "Atomstrom wird genutzt",
@@ -86,7 +85,7 @@
      "id": 4,
      "headline" : "1986: Tschernobyl Unglück - Ein SPD-Parteitag beschließt den Ausstieg innerhalb von 10 Jahren",
      "backgroundImage" : "./data/images/background.jpg",
-     "audio" : "./data/audio/example01.mp3",
+     "audio" : "./data/audio/04.m4a",
      "decisions" : [
        {
          "label" : "Weitermachen",
@@ -112,7 +111,7 @@
      "id": 5,
      "headline" : "1997: Kyoto-Protokoll",
      "backgroundImage" : "./data/images/background.jpg",
-     "audio" : "./data/audio/example01.mp3",
+     "audio" : "./data/audio/05.m4a",
      "decisions" : [
        {
          "label" : "Einstieg in die staatliche Förderung EE, ein schrittweiser Ausstieg aus der Kohle",
@@ -134,7 +133,7 @@
      "id": 6,
      "headline" : "2011: Fukushima",
      "backgroundImage" : "./data/images/background.jpg",
-     "audio" : "./data/audio/example01.mp3",
+     "audio" : "./data/audio/06.m4a",
      "decisions" : [
        {
          "label" : "Festhalten an der Kernerergie",
@@ -156,7 +155,7 @@
      "id": 7,
      "headline" : "Super GAU",
      "backgroundImage" : "./data/images/background.jpg",
-     "audio" : "./data/audio/example01.mp3",
+     "audio" : "./data/audio/07.m4a",
      "decisions" : [
        {
          "label" : "Nochmal Versuchen",
@@ -178,7 +177,7 @@
      "id": 8,
      "headline" : "2015: Klimavertrag von Paris",
      "backgroundImage" : "./data/images/background.jpg",
-     "audio" : "./data/audio/example01.mp3",
+     "audio" : "./data/audio/08.m4a",
      "decisions" : [
        {
          "label" : "weiter wie bisher",
@@ -200,7 +199,7 @@
      "id": 9,
      "headline" : "Klimakatastrophe",
      "backgroundImage" : "./data/images/background.jpg",
-     "audio" : "./data/audio/example01.mp3",
+     "audio" : "./data/audio/09.m4a",
      "decisions" : [
        {
          "label" : "Nochmal versuchen",
@@ -222,7 +221,7 @@
      "id": 10,
      "headline" : "EEG Entwicklung",
      "backgroundImage" : "./data/images/background.jpg",
-     "audio" : "./data/audio/example01.mp3",
+     "audio" : "./data/audio/10.m4a",
      "decisions" : [
        {
          "label" : "Einige Jahre vorspringen",
@@ -240,7 +239,7 @@
      "id": 11,
      "headline" : "Die EEG Umlage wird teurer, immer mehr Menschen können sich keinen Strom leisten",
      "backgroundImage" : "./data/images/background.jpg",
-     "audio" : "./data/audio/example01.mp3",
+     "audio" : "./data/audio/11.m4a",
      "decisions" : [
        {
          "label" : "Industrieprivileg streichen, es müssen also alle für die Förderung der EE zahlen",
@@ -262,7 +261,7 @@
      "id": 12,
      "headline" : "Tausende verlieren ihre Arbeit, Gewerkschaften und Industrie laufen Sturm",
      "backgroundImage" : "./data/images/background.jpg",
-     "audio" : "./data/audio/example01.mp3",
+     "audio" : "./data/audio/12.m4a",
      "decisions" : [
        {
          "label" : "am sofortiger Kohleausstieg festhalten",
@@ -280,7 +279,7 @@
      "id": 13,
      "headline" : "Es kommt zum Zusammenbruch der Elektrizitätsversorgung, die Versorgungssicherheit ist nicht mehr gewährleistet",
      "backgroundImage" : "./data/images/background.jpg",
-     "audio" : "./data/audio/example01.mp3",
+     "audio" : "./data/audio/13.m4a",
      "decisions" : [
        {
          "label" : "Nochmal versuchen",
@@ -302,7 +301,7 @@
      "id": 14,
      "headline" : "Die Wirtschaft protestiert energisch. Doch die Umlage sinkt, da sie auf mehrere Schultern verteilt wird.",
      "backgroundImage" : "./data/images/background.jpg",
-     "audio" : "./data/audio/example01.mp3",
+     "audio" : "./data/audio/14.m4a",
      "decisions" : [
        {
          "label" : "EE werden weiter gefördert, sie sollen jedoch nur ein Teil von vielen im Strommix sein",
@@ -324,7 +323,7 @@
      "id": 15,
      "headline" : "Das Stromangebot sinkt, also steigen die Preise. Dies bewirkt jedoch ein Absinken der Ummlage. Für die Kunden wird der Strom also billiger",
      "backgroundImage" : "./data/images/background.jpg",
-     "audio" : "./data/audio/example01.mp3",
+     "audio" : "./data/audio/15.m4a",
      "decisions" : [
        {
          "label" : "EE werden weiter gefördert, sie sollen jedoch nur ein Teil von vielen im Strommix sein",
@@ -346,7 +345,7 @@
      "id": 16,
      "headline" : "Durch einen nennenswerten Anteil an EE im Strommix sind, zumindest für Deutschland, keine verheerenden Klimaschäden oder Atomunfälle zu erwarten → Für die künftigen Generationen darf hier allerdings nicht halt gemacht werden.",
      "backgroundImage" : "./data/images/background.jpg",
-     "audio" : "./data/audio/example01.mp3",
+     "audio" : "./data/audio/16.m4a",
      "decisions" : [
        {
          "label" : "Nochmal versuchen",
@@ -368,7 +367,7 @@
      "id": 17,
      "headline" : "EE machen mittlerweile einen großen Teil der Stromerzeugung aus. Jedoch fallen Last- und Nachfragespitzen immer weiter auseinander",
      "backgroundImage" : "./data/images/background.jpg",
-     "audio" : "./data/audio/example01.mp3",
+     "audio" : "./data/audio/17.m4a",
      "decisions" : [
        {
          "label" : "Die Netze werden ausgebaut, vor allem um Windstrom aus dem Norden nach Süden zu leiten. Darüber hinaus werden “Smart Grids” und Demand-Side-Management angewandt.",
@@ -390,7 +389,7 @@
      "id": 18,
      "headline" : "Erzeugungsspitzen können abgefangen werden, es gibt jedoch Proteste aus der Bevölkerung gegen den Netzausbau",
      "backgroundImage" : "./data/images/background.jpg",
-     "audio" : "./data/audio/example01.mp3",
+     "audio" : "./data/audio/18.m4a",
      "decisions" : [
        {
          "label" : "Speicher werden massiv ausgebaut. Power-to-Gas, Druckluftspeicher, Batterien etc. Elektroautos werden in die Speicherinfrastruktur einbezogen.",
@@ -408,7 +407,7 @@
      "id": 19,
      "headline" : "Nachfragespitzen können ausgeglichen werden. Die Investitionen in die Spiecher verteuern allerdings den Strom",
      "backgroundImage" : "./data/images/background.jpg",
-     "audio" : "./data/audio/example01.mp3",
+     "audio" : "./data/audio/19.m4a",
      "decisions" : [
        {
          "label" : "Die Netze werden ausgebaut, vor allem um Windstrom aus dem Norden nach Süden zu leiten. Darüber hinaus werden “Smart Grids” und Demand-Side-Management angewandt.",
@@ -426,7 +425,7 @@
      "id": 20,
      "headline" : "Hervorragen: Netze und Speicher werden parallel zum Ausbau der EE gefördert. So kann die Versorgungssicherheit sichergestellt werden.",
      "backgroundImage" : "./data/images/background.jpg",
-     "audio" : "./data/audio/example01.mp3",
+     "audio" : "./data/audio/20.m4a",
      "decisions" : [
        {
          "label" : "Die Energiewende ist mit 80 % Anteil EE abgeschlossen",
@@ -448,7 +447,7 @@
      "id": 21,
      "headline" : "Ein absoluter Großteil der Stromversorgung besteht aus EE. Deutschland hat damit ein Vorreiterrolle im Kampf gegen die globale Erwärmung. Sehr gut!",
      "backgroundImage" : "./data/images/background.jpg",
-     "audio" : "./data/audio/example01.mp3",
+     "audio" : "./data/audio/21.m4a",
      "decisions" : [
        {
          "label" : "Nochmal versuchen",
@@ -470,7 +469,7 @@
      "id": 22,
      "headline" : "Energieeffizienz führt zu einer geringeren Stromnachfrage, die überschüssige Energie wird für die Sektoren Wärme und Verkehr genutzt, die damit ebenfalls ohne Treibhausgasemissionen auskommen. Ein bahnbrechender Beitag zum Klimaschutz und zur Rettung der Erde. Glückwunsch!",
      "backgroundImage" : "./data/images/background.jpg",
-     "audio" : "./data/audio/example01.mp3",
+     "audio" : "./data/audio/22.m4a",
      "infobox" : {
        "text" : "1. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
        "facts" : [
