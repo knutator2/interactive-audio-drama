@@ -13,7 +13,7 @@ var FooterComponent = React.createClass({
     render: function() {
         return (
             <footer className="footer">
-                <p className="footer__text">Footer, more tbd...</p>
+                <p className="footer__text">Ein Projekt von Thomas Fett, Rinus Heinzmann, Konstantin Könnecke, Knut Perseke</p>
             </footer>
         );
     }

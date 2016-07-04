@@ -128,7 +128,7 @@
          "targetId" : 10
        },
        {
-         "label" : "neue Kernkraftwerke als CO2 ärmere Alternative",
+         "label" : "Kyoto Protokoll ignorieren. Öl ist der richtige Weg",
          "targetId" : 23
        }
      ],
@@ -501,6 +501,22 @@
          "Fact1", "Fact2", "Fact3"
        ]
      }
+   },
+   {
+     "id": 23,
+     "headline" : "Das ENERGIEGREMIUM",
+     "backgroundImage" : "./data/images/background.jpg",
+     "audio" : "./data/audio/B01.m4a",
+     "infobox" : {
+       "text" : "Das ist also das Energiegremium. Na dann mal los.",
+       "facts" : []
+     },
+     "decisions" : [
+       {
+         "label" : "Weitermachen",
+         "targetId" : 8
+       }
+     ]
    }
  ]
 }
