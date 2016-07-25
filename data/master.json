@@ -13,9 +13,11 @@
        }
      ],
      "infobox" : {
-       "text" : "1. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+       "text" : "Die gegenwärtige Energieproduktion läuft in erster Linie auf Kohlekraft. Momentan gibt es leider keine Alternativen. Zudem ist Deutschland noch mit dem Wiederaufbau nach dem 2. Weltkrieg beschäftigt. Die Bundesrepublik und die DDR beginnen sich erst zu formieren.",
        "facts" : [
-         "Fact1", "Fact2", "Fact3"
+         "Verabschiedung des Grundgesetzes: 23. Mai 1949 ",
+         "primäre Energiequelle: fossile Energieträger, vor allem aber Kohle",
+         "eine Steigerung des Strombedarfs ist wahrscheinlich"
        ]
      }
    },
@@ -35,9 +37,11 @@
        }
      ],
      "infobox" : {
-       "text" : "2. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+       "text" : "<p>Eine neue Technologie ist im Kommen: der Atomstrom.</p><p>Er verspricht eine sauberere Produktion von Strom. Außerdem können größere Mengen produziert werden. Die neue Technologie bietet allerdings Risiken.</p><p>Durch den Betrieb eines Atomkraftwerks ist die Umgebung höherer radioaktiver Strahlung ausgesetzt. Kommt es in dem Kraftwerk zu einem Leck, steigt Strahlenbelastung nochmal um eine Vielfaches.</p>",
        "facts" : [
-         "Fact4", "Fact5", "Fact6"
+         "Kernenergie löst das Problem des erhöhten Energiebedarfs",
+         "Gefahr: Erhöhte radioaktive Strahlenbelastung in der Umgebung",
+         "Auswirkung der Strahlen auf den menschlichen Organismus ist noch nicht erforscht"
        ]
      }
    },
@@ -53,9 +57,11 @@
        }
      ],
      "infobox" : {
-       "text" : "3. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+       "text" : "<p>Du hast dich wie die damalige Bundesregierung dazu entschieden auf den Atomstrom zu setzen.</p><p>Erste Erfolge sind bereits zu verzeichnen, sodass der Atomstrom nun wirklich kommerziell nutzbar ist. Sehen wir wie es weitergeht.</p>",
        "facts" : [
-         "Fact7", "Fact8", "Fact9"
+         "erstes kommerzielles Kernkraftwerk in <a href='http://www.atommuellreport.de/daten/akw-obrigheim.html'>Obrigheim</a>",
+         "<a href = 'http://www.bookshop.europa.eu/de/kernkraftwerk-obrigheim.-jahresbericht-1968-pbCDNA04391/downloads/CD-NA-04-391-DE-C/CDNA04391DEC_001.pdf;pgid=y8dIS7GUWMdSR0EAlMEUUsWb0000f9LtnR9c?FileName=CDNA04391DEC_001.pdf&amp;SKU=CDNA04391DEC_PDF&amp;CatalogueNumber=CD-NA-04-391-DE-C'>Bericht</a> zu besonderen Vorkommnissen in Obrigheim",
+         "<a href = 'http://magazin.spiegel.de/EpubDelivery/spiegel/pdf/13494223'>Bericht</a> des Spiegels, dass das AKW Obrigheim ohne Dauerbetriebsgenehmigung lief"
        ]
      }
    },
@@ -75,9 +81,11 @@
        }
      ],
      "infobox" : {
-       "text" : "1. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+       "text" : "<p>Am 17. Oktober 1973 erlässt die Organisation der Staaten die Erdöl exportieren (OPEC) ein Embargo, welches den Ölexport der meisten arabischen Länder drosselt. Dieses soll die westlichen Wirtschaftsmächte, die größtenteils pro-israelisch eingestellt sind, dazu bewegen, Position für die arabischen Länder zu beziehen.</p><p>Dies führte in den westlichen Nationen zu massiven Sparmaßnahmen, deren Andenken uns bis heute als Bilder von leeren Autobahnen begleitet. Aus Angst vor der drohenden Knappheit begann eine Reihe von Panikkäufen im Ölsektor, sodass der Preis für Heizöl von 2,50 Mark auf 20 Mark anstieg (*). Diese Energieknappheit führte zu einem ersten Umdenken in der Energiepolitik.</p>",
        "facts" : [
-         "Fact1", "Fact2", "Fact3"
+         "<a href='https://youtu.be/Ulxe1ie-vEY'>Peak Oil (Youtube)</a>",
+         "(*)<a href='http://www.spiegel.de/spiegel/print/d-41926278.html'>Ölkrise: „Die würden uns auslutschen“ (Spiegel Artikel)</a>",
+         "1973 werden etwa 85% des Weltenergiebedarfs durch fossile Energieträger gedeckt"
        ]
      }
    },
@@ -101,9 +109,11 @@
        }
      ],
      "infobox" : {
-       "text" : "1. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+       "text" : "Das Unglück von Tschernobyl hat vielen Leuten das erste Mal vor Augen geführt, was für schreckliche Auswirkungen ein Unfall in einem Atomkraftwerk haben kann. Durch die Katastrophe bekam auch die Forschung  zu den Auswirkungen erhöhter radioaktiver Strahlung eine größere Bedeutung (Strahlenkrankheit)",
        "facts" : [
-         "Fact1", "Fact2", "Fact3"
+         "Das Unglück ereignete sich am 26. April 1986",
+         "Direkte Todesfälle aufgrund der Strahlenkrankheit: 50, die Zahl der Toten nach Folgeerkrankungen aufgrund der erhöhten radioaktiven Strahlung wird auf 9000 geschätzt",
+         "in der Politik begann nach dem Bekanntwerden der Katastrophe das Umdenken, ob weiter auf die Atomenergie gesetzt werden sollte"
        ]
      }
    },
@@ -118,14 +128,17 @@
          "targetId" : 10
        },
        {
-         "label" : "neue Kernkraftwerke als CO2 ärmere Alternative",
+         "label" : "Kyoto Protokoll ignorieren. Öl ist der richtige Weg",
          "targetId" : 23
        }
      ],
      "infobox" : {
-       "text" : "1. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+       "text" : "Mit dem Kyoto-Protokoll welches 1997 auf der dritten Vertragsstaatenkonferenz der Klimarahmenkonvention (COP 3) erarbeitet wurde wird das erste völkerrechtlich bindende Dokument zum Schutz des globalen Klimas geschaffen. Die teilnehmenden Staaten verpflichten sich zu einer Reduktion der Emissionen von Treibhausgasen um 5,2% verglichen mit den Werten aus dem Jahr 1990.",
        "facts" : [
-         "Fact1", "Fact2", "Fact3"
+         "<a href='http://www.bmub.bund.de/fileadmin/bmu-import/files/pdfs/allgemein/application/pdf/protodt.pdf'>Kyoto Protokoll (Quelle: BMUB)</a>",
+         "Die politischen Mühlen mahlen langsam, dass 1997 erstellte Kyoto-Protokoll konnte erst mit der Ratifizierung Russlands 2005 in Kraft treten.",
+         "“Die unter dem Kyoto-Protokoll reglementierten Treibhausgase sind: Kohlendioxid (CO2), Methan (CH4), Distickstoffoxid (N2O), Halogenierte Fluorkohlenwasserstoffe (H-FKW), Fluorkohlenwasserstoffe (FKW) und Schwefelhexafluorid (SF6).” (Quelle: <a href='http://www.umweltbundesamt.de/themen/klima-energie/internationale-eu-klimapolitik/kyoto-protokoll'>Umweltbundesamt</a>)",
+         "<a href='http://www.bmub.bund.de/themen/klima-energie/klimaschutz/internationale-klimapolitik/kyoto-protokoll/'>weitere Informationen</a> vom BMUB"
        ]
      }
    },
@@ -145,9 +158,11 @@
        }
      ],
      "infobox" : {
-       "text" : "1. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+       "text" : "Das Unglück von Fukushima hat gezeigt, dass auch große Industienationen wie Japan nicht sicher vor einer nuklearen Katastrophe in einem Atomkraftwerk sind. Nach dem Unglück kam es in viele deutsche Städten zu Demonstrationen mit dem Ziel die Politik zum Ausstieg aus der Atomenergie zu bewegen",
        "facts" : [
-         "Fact1", "Fact2", "Fact3"
+         "Das Unglück ereignete sich am 11. März 2011",
+         "vorausgegangen war das schwerste Erdbeben in der Geschichte Japans",
+         "die deutsche Politik beschließt den Ausstieg aus der Kernenergie"
        ]
      }
    },
@@ -167,10 +182,8 @@
        }
      ],
      "infobox" : {
-       "text" : "1. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-       "facts" : [
-         "Fact1", "Fact2", "Fact3"
-       ]
+       "text" : "Die Energiekatastrophe ist eingetreten, das hast du nicht gut gemanaged. Du hast nun die Möglichkeit, zum Anfang zurückzukehren oder zur Einführung eines <i>Erneuerbare Energien Gesetzes</i> zu wechseln",
+       "facts" : []
      }
    },
    {
@@ -189,9 +202,11 @@
        }
      ],
      "infobox" : {
-       "text" : "1. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+       "text" : "Der Klimavertrag von Paris setzt das Ziel die globale Erwärmung unterhalb von 2°C gegenüber dem vorindustriellen Zeitalter zu halten. Außerdem soll ein Gleichgewicht von CO2-Produktion und -Bindung geschaffen werden. Sogar die USA und China haben eine Ratifizierung noch 2016 zugesagt. Insgesamt haben fast 200 Staaten dem Klimavertrag zugesagt.",
        "facts" : [
-         "Fact1", "Fact2", "Fact3"
+         "<a href='https://www.tagesschau.de/ausland/klima-paris-abkommen-105.html'>Beitrag</a> der Tagesschau zum Pariser Abkommen",
+         "Ab 2023 sollen die Klimaziele regelmäßig kontrolliert und verschärft werden.",
+         "In einer begleitenden Entscheidung wird das Versprechen der Industrieländer festgehalten, ab 2020 jährlich 100 Milliarden Dollar für arme Staaten bereitzustellen. Diese Summe soll bis 2025 fließen."
        ]
      }
    },
@@ -211,10 +226,8 @@
        }
      ],
      "infobox" : {
-       "text" : "1. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-       "facts" : [
-         "Fact1", "Fact2", "Fact3"
-       ]
+       "text" : "Durch den zügellosen Raubbau fossiler Brennstoffe und die andauernde Verschmutzung der Atmosphäre kommt es zu einer exponentiellen Erwärmung der Erdatmosphäre, was zunächst zu einem Anstieg der Meeresspiegel führte und anschließend zum Verdunsten der Meere. Du hast die Chance vertan eine verlässliche Energiepolitik zu fahren. Du hast nun die Möglichkeit noch einmal von vorn anzufangen, oder auf einen anderen Pfad, der Einführung des EEG Gesetzes zu springen.",
+       "facts" : []
      }
    },
    {
@@ -229,9 +242,11 @@
        }
      ],
      "infobox" : {
-       "text" : "1. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+       "text" : "Zweck des <i>Eneuerbare Energien Gesetzes</i> ist es, insbesondere im Interesse des Klima- und Umweltschutzes eine nachhaltige Entwicklung der Energieversorgung zu ermöglichen, die volkswirtschaftlichen Kosten der Energieversorgung auch durch die Einbeziehung langfristiger externer Effekte zu verringern, fossile Energieressourcen zu schonen und die Weiterentwicklung von Technologien zur Erzeugung von Strom aus erneuerbaren Energien zu fördern. Um diesen Zweck zu erreichen, verfolgt das Gesetz das Ziel, den Anteil des aus erneuerbaren Energien erzeugten Stroms am Bruttostromverbrauch stetig und kosteneffizient auf mindestens 80 Prozent bis zum Jahr 2050 zu erhöhen.",
        "facts" : [
-         "Fact1", "Fact2", "Fact3"
+         "Seit der Einführung des Erneuerbare Energien Gesetz, kurz EEG, konnte der Anteil an erneuerbaren Energien im deutschen Strommix im Jahr 2015 auf 30 % gesteigert werden",
+         "Das EEG wird immer wieder überarbeitet und verändert, das letzte Mal im Jahr 2016",
+         "<a href='http://www.erneuerbare-energien.de/EE/Navigation/DE/Recht-Politik/Das_EEG/DatenFakten/daten-und-fakten.html'>Eine Sammlung</a> mit Informationen und Fakten über das EEG und seine Entwicklung stellt das BMWI zur Verfügung"
        ]
      }
    },
@@ -251,9 +266,10 @@
        }
      ],
      "infobox" : {
-       "text" : "1. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+       "text" : "Ob Windparkbetreiber oder Privathaushalt mit Solarzellen auf dem Dach: Wer Strom aus erneuerbarer Energie produziert und ins Netz einspeist, wird gefördert. Das soll dafür sorgen, dass der Anteil von Strom aus Wind, Wasserkraft, Sonne, Erdwärme oder Biomasse sukzessive steigt. Um Anreize zu schaffen, sind Anlagebetreibern die Vergütungssätze ab dem Zeitpunkt der Inbetriebnahme im Erneuerbare-Energien-Gesetz (EEG) staatlich für 20 Jahre garantiert - sie sind also nicht Angebot und Nachfrage überlassen. Die Höhe der Umlage wird von den vier Betreibern der Übertragungsnetze in Deutschland festgelegt. Sie verwalten das Konto, über das die Vergütungszahlungen abgewickelt werden. Dieses ist im Minus, denn Ökostrom lässt sich auf dem freien Markt - an den Strombörsen - nicht zu dem Preis verkaufen, zu dem er von den Anlagebetreibern - gesetzlich festgelegt - eingekauft wird. Denn sogenannter konventioneller Strom - zum Beispiel aus Atomkraftwerken - ist deutlich günstiger und drückt die Preise.  Weil immer mehr Ökostrom auf den Markt kommt, sinkt der erzielbare Preis sogar. Aus der Differenz zwischen Vergütung und Marktpreis ergibt sich die Höhe der Umlage - sie steigt also sogar umso mehr, je günstiger der Strom an den Börsen gehandelt wird. Mit der Begründung, sie international wettbewerbsfähig zu halten, sind viele Unternehmen in sogenannten energieintensiven Industrien von der Umlage freigestellt - Tendenz steigend. Ohne diese Ausnahmeregeln müssten Privatkunden deutlich weniger EEG-Umlage zahlen. Der Bundesverband erneuerbare Energien (BEE) hat errechnet, dass die eigentlichen Förderkosten ohne Ausnahmeregeln im Jahr 2014 nur 2,54 Cent je kWh betragen. (Quelle: <a href='https://www.tagesschau.de/wirtschaft/faq-oekostromumlage100.html'>www.tagesschau.de</a>)",
        "facts" : [
-         "Fact1", "Fact2", "Fact3"
+         "2.305 Unternehmen waren 2015 sind von der Umlage befreit. Sie profitieren von der “Besonderen Ausgleichsregel”. Damit wurde für eine Strommenge von 106 TWh keine EEG-Umlage bezahlt.",
+         "Wenn viel Wind weht und die Sonne scheint wird manchmal schon so viel Strom produziert, dass der Preis für Strom auf der Börse sogar negativ wird. Das heißt, dass ein Stromproduzent, der Strom verkauft dafür kein Geld bekommt, sondern sogar noch draufzahlt. Das liegt auch daran, dass zu viele Kohle und Kernkraftwerke immer Strom produzieren, auch, wenn dieser nicht gebraucht wird."
        ]
      }
    },
@@ -269,10 +285,8 @@
        }
      ],
      "infobox" : {
-       "text" : "1. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-       "facts" : [
-         "Fact1", "Fact2", "Fact3"
-       ]
+       "text" : "",
+       "facts" : []
      }
    },
    {
@@ -291,9 +305,9 @@
        }
      ],
      "infobox" : {
-       "text" : "1. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+       "text" : "",
        "facts" : [
-         "Fact1", "Fact2", "Fact3"
+
        ]
      }
    },
@@ -313,9 +327,10 @@
        }
      ],
      "infobox" : {
-       "text" : "1. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+       "text" : "Ein großer Unterschied von fluktuierenden erneuerbaren Energien und konventionellen Kapazitäten ist die Regelbarkeit der Erzeugung. In einem weitestgehend auf erneuerbaren Energien basierenden Elektrizitätsversorgungssystem wird der Strom nicht produziert, wenn er gebraucht wird, sondern wenn der Wind weht und die Sonne scheint. Da sich Strom derzeit noch nicht ausreichend Speichern lässt, gibt es kontroverse Diskussionen, ob die Energieversorgung jemals nur aus erneuerbaren Energiequellen sicherheirgestellt werden kann.",
        "facts" : [
-         "Fact1", "Fact2", "Fact3"
+         "Schon jetzt verschiebt sich die Lastspitzen aufgrund der Photovoltaikspitze mittags in die Morgen- und Abendstunden.",
+         "Windkraftwerke müssen bereits jetzt gelegentlich abgeregelt werden, da sie zu viel Strom produzieren und die Netzte überlasten."
        ]
      }
    },
@@ -335,9 +350,10 @@
        }
      ],
      "infobox" : {
-       "text" : "1. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+       "text" : "Ein großer Unterschied von fluktuierenden erneuerbaren Energien und konventionellen Kapazitäten ist die Regelbarkeit der Erzeugung. In einem weitestgehend auf erneuerbaren Energien basierenden Elektrizitätsversorgungssystem wird der Strom nicht produziert, wenn er gebraucht wird, sondern wenn der Wind weht und die Sonne scheint. Da sich Strom derzeit noch nicht ausreichend Speichern lässt, gibt es kontroverse Diskussionen, ob die Energieversorgung jemals nur aus erneuerbaren Energiequellen sicherheirgestellt werden kann.",
        "facts" : [
-         "Fact1", "Fact2", "Fact3"
+         "Schon jetzt verschiebt sich die Lastspitzen aufgrund der Photovoltaikspitze mittags in die Morgen- und Abendstunden.",
+         "Windkraftwerke müssen bereits jetzt gelegentlich abgeregelt werden, da sie zu viel Strom produzieren und die Netze überlasten."
        ]
      }
    },
@@ -357,10 +373,8 @@
        }
      ],
      "infobox" : {
-       "text" : "1. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-       "facts" : [
-         "Fact1", "Fact2", "Fact3"
-       ]
+       "text" : "Traust du dich, den Weg noch ein Stückchen weiter zu gehen?",
+       "facts" : []
      }
    },
    {
@@ -379,9 +393,12 @@
        }
      ],
      "infobox" : {
-       "text" : "1. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+       "text" : "Es gibt eine breite Palette verschiedener Optionen für den Lastausgleich, also den Ausgleich von Stromproduktion und verbrauch. Wichtig sind vor allem die örtliche Verteilung durch die Stromnetze und die Nachfragesteuerung zum Ausgleich der zu erwartenden starken zeitlichen Schwankungen. Zudem können neben regelbaren erneuerbaren Energien (z.B. Biomasse) auch Speichersysteme zur Sicherung der Systemstabilität und vor allem zum Ausgleich längerer meteorologisch bedingter Angebotsausfälle beitragen. In Situationen mit einem extrem hohen Dargebot (Wind & Sonne) und geringer Last können Erneuerbare-Energien-Anlagen außerdem abgeregelt werden.- <i>Sachverständigenrat für Umweltfragen (2013) - Den Strommarkt der Zukunft gestalten</i>",
        "facts" : [
-         "Fact1", "Fact2", "Fact3"
+         "Da Strom bislang nur in geringem Umfang gespeichert werden kann, müssen sich Erzeugung und Verbrauch zu jeder Zeit exakt entsprechen.",
+         "Die Nachfrage nach Strom unterliegt starken tageszeitlichen und saisonalen Schwankungen.",
+         "Ein zeitliches Auseinanderfallen von Erzeugung und Verbrauch kann aber zu einer Veränderung der Netzfrequenz führen, die Netzinstabilitäten zur Folge haben kann.",
+         "Die erneuerbaren Energien bringen die Herausforderung mit sich, ihre schwankende Erzeugung auszugleichen."
        ]
      }
    },
@@ -397,9 +414,11 @@
        }
      ],
      "infobox" : {
-       "text" : "1. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+       "text" : "Die Netzinfrastruktur verbindet Erzeugung und Verbrauch auf den unterschiedlichen Ebenen (Verteilnetz, Hoch- und Höchstspannungsnetz, in Zukunft auch: Overlay-Netz). Sie muss der veränderten Stromerzeugungsstruktur angepasst werden. Es ist dabei zu erwarten, dass es ein Nebeneinander zentraler und dezentraler Erzeugungsstruktur geben wird. Netzverstärkung und Netzausbau sind die erste und wichtigste Flexibilitätsoption: Die möglichst großräumige Vernetzung vielfältigster Leistungs-, Angebots- und Nachfrageprofile sorgt statistisch für einen besseren Ausgleich der Erzeugungs- und Lastspitzen. Die Netzoptimierung ist nicht nur kostengünstiger und schneller zu realisieren als viele Speicherlösungen, sie ist auch die Voraussetzung für den Zugriff auf weitere Flexibilitätsoptionen sowohl auf der Angebots- als auch auf der Nachfrageseite. Insbesondere würde eine Anpassung der Netzinfrastruktur Potenziale für das Lastmanagement erschließen (sog. Smart Grids) und dem gestiegenen Koordinationsaufwand durch die zunehmend dezentrale Einspeisung Rechnung tragen. Die Anpassung der Netzinfrastruktur sollte dabei nicht national beschränkt sein. Vielmehr ist eine europaweite Vernetzung die kostengünstigste Option für eine effiziente Nutzung erneuerbarer Energien. Ein optimiertes paneuropäisches Netz böte die Möglichkeit, ein regional oder technologiebezogen schwankendes Angebot über verschiedene erneuerbare Energien und Regionen übergreifend großräumig auszugleichen. Nicht zuletzt könnte ein Europa überspannendes Netz dazu beitragen, die divergierenden Lastprofile verschiedener europäischer Länder teilweise auszugleichen. - <i>Sachverständigenrat für Umweltfragen (2013) - Den Strommarkt der Zukunft gestalten</i>",
        "facts" : [
-         "Fact1", "Fact2", "Fact3"
+         "Das deutsche Stromnetz ist inzwischen 1,8 Millionen Kilometer lang. Mit dieser Länge könnte der Äquator 45-mal umrundet werden. Ein Großteil der Leitungen, ca. 80 %, sind unterirdisch verlegt.",
+         "Die überregionalen Höchstspannungsnetze sind in Deutschland 34.810 Kilometer lang.",
+         "Bis 2022 sollen Höchstspannungs-Stromtrassen mit einer Länge von 3.800 Kilometer neu gebaut werden. Vor allem soll damit Windstrom aus dem Norden in die Industriezentren im Süden des Landes transportiert werden."
        ]
      }
    },
@@ -415,9 +434,10 @@
        }
      ],
      "infobox" : {
-       "text" : "1. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+       "text" : "Stromspeicher können sehr unterschiedliche Funktionen erfüllen und auf unterschiedlichen Netzebenen zum Einsatz kommen. Je nach Technologie können sie für den kurz-, mittel- und langfristigen Lastausgleich eingesetzt werden, aber auch für die Bereitstellung von Systemdienstleistungen. Die heute verfügbaren Speichertechnologien reichen von kleinen dezentralen Batteriespeichern über Druckluftspeicher hin zu großen zentralen und bereits im Einsatz befindlichen Pumpspeichern. Eine weitere Option stellt die Konversion von Strom in chemische Energieträger dar. Bisher sind die Kosten für Stromspeicher jedoch noch sehr hoch. Es wird aber davon ausgegangen, dass der technologische Fortschritt die Speicher auf absehbare Zeit billiger werden lässt. - <i>Sachverständigenrat für Umweltfragen (2013) - Den Strommarkt der Zukunft gestalten</i>",
        "facts" : [
-         "Fact1", "Fact2", "Fact3"
+         "Im Jahr 2014 standen im deutschen Stromnetz Speicher mit über 9.500 MW Leistung und einer Stromspeicherkapazitätvon rund 40 Mio. kWh zur Verfügung, darunter fast ausschließlich Pumpspeicherkraftwerke.",
+         "Zum Vergleich: Damit könnte der gesamtdeutsche Stromverbrauch für genau 35 Minuten gedeckt werden."
        ]
      }
    },
@@ -437,9 +457,10 @@
        }
      ],
      "infobox" : {
-       "text" : "1. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+       "text" : "Die zukünftige Energieversorgung könnte deutlich stärker strombasiert sein. Die  Bereiche Wärme, Verkehr und Industrie weürden dann zukünftig in hohem Maße mit regenerativ erzeugtem Strom versorgt. Dadurch verbreitert sich die Nachfragebasis für Strom und es entstehen bislang nicht verfügbare Flexibilitätspotenziale. Damit ergeben sich etliche Möglichkeiten zum Lastausgleich, indem beispielsweise durch den Wärmesektor Strom abgenommen wird, der erzeugt aber nicht durch direkte Verbraucher nachgefragt wird, und zur zeitlichen Lastverschiebung, etwa wenn Strom in Batterien von Elektrofahrzeugen zwischengespeichert wird. Allerdings ist auch davon auszugehen, dass die Elektrifizierung weiterer Sektoren zu einer zusätzlichen Stromnachfrage führt. Diese zusätzliche Stromnachfrage sollte soweit wie möglich in Zeiten eines Überangebots an regenerativem Strom gedeckt werden. Die derzeitige Wärmebereitstellung in Deutschland verursacht knapp 40 % dergesamten deutschen CO2-Emissionen. Im Zuge ambitionierter Klimaschutzziele sollte auch die Wärmeversorgung der Zukunft auf eine regenerative Basis umgestellt werden. Zwischen 1999 und 2011 ist in Deutschland die Personenverkehrsleistung um 7 % sowie die Güterverkehrsleistung um 31 % angestiegen. Angesichts dieser Entwicklung ist es klimapolitisch notwendig, den Verkehr als einen maßgeblichen Energieverbraucher auf eine nachhaltige Basis zu stellen. Im motorisierten Personen- und Individualverkehr erscheint eine vollständige Elektrifizierung auf Basis erneuerbarer Energien laut Expertenmeinungen durchaus machbar. <i>Sachverständigenrat für Umweltfragen (2013) - Den Strommarkt der Zukunft gestalten</i>",
        "facts" : [
-         "Fact1", "Fact2", "Fact3"
+         "Laut einer Studie des Fraunhofer Instituts für Solare Energieforschung ISE ließe sich der deutsche Strom- und Wärmebedarf komplett aus regenerativen einheimischen Ressourcen ohne Importe decken.",
+         "Eine Umstellung aller derzeit rund 43 Millionen Personenkraftwagen in Deutschland auf Elektromobilität würde aus gesamtenergetischer Sicht eine Steigerung der Stromnachfrage von bis zu 100 TWh jährlich zur Folge haben."
        ]
      }
    },
@@ -459,9 +480,10 @@
        }
      ],
      "infobox" : {
-       "text" : "1. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+       "text" : "Du erbringst den Beweis: Die Energiewende ist möglich. Jetzt muss sie nur noch konsequent zu Ende gedacht werden...",
        "facts" : [
-         "Fact1", "Fact2", "Fact3"
+         "Eine weitgehend (bzw. zu mindestens 80 %) auf erneuerbaren Energien beruhende Elektrizitätsversorgung ist laut den Zielen der Bundesregierung bis zum Jahr 2050 geplant.",
+         "Bis 2030 sollen 27 % des europäischen Stromverbrauchs aus erneuerbaren Energiequellen gedeckt werden."
        ]
      }
    },
@@ -471,11 +493,25 @@
      "backgroundImage" : "./data/images/background.jpg",
      "audio" : "./data/audio/22.m4a",
      "infobox" : {
-       "text" : "1. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-       "facts" : [
-         "Fact1", "Fact2", "Fact3"
-       ]
+       "text" : "Eine außergewöhnliche Leistung! Sollte die Welt jemals deinem Beispiel folgen, wäre ein großer Schritt zur Rettung unserer Erde getan. Doch das Thema ist zu wichtig, um es Politikern und Wirtschaftsvertretern alleine zu überlassen: Wir sind alle gefragt, die Energiewende mitzugestalten. Das fängt schon beim Stromtarif zuhause an...",
+       "facts" : []
      }
+   },
+   {
+     "id": 23,
+     "headline" : "Das ENERGIEGREMIUM",
+     "backgroundImage" : "./data/images/background.jpg",
+     "audio" : "./data/audio/B01.m4a",
+     "infobox" : {
+       "text" : "Das ist also das Energiegremium. Na dann mal los.",
+       "facts" : []
+     },
+     "decisions" : [
+       {
+         "label" : "Weitermachen",
+         "targetId" : 8
+       }
+     ]
    }
  ]
 }
