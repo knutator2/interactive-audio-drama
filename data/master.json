@@ -484,9 +484,10 @@
        }
      ],
      "infobox" : {
-       "text" : "1. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+       "text" : "Du erbringst den Beweis: Die Energiewende ist möglich. Jetzt muss sie nur noch konsequent zu Ende gedacht werden...",
        "facts" : [
-         "Fact1", "Fact2", "Fact3"
+         "Eine weitgehend (bzw. zu mindestens 80 %) auf erneuerbaren Energien beruhende Elektrizitätsversorgung ist laut den Zielen der Bundesregierung bis zum Jahr 2050 geplant.",
+         "Bis 2030 sollen 27 % des europäischen Stromverbrauchs aus erneuerbaren Energiequellen gedeckt werden."
        ]
      }
    },
@@ -496,10 +497,8 @@
      "backgroundImage" : "./data/images/background.jpg",
      "audio" : "./data/audio/22.m4a",
      "infobox" : {
-       "text" : "1. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-       "facts" : [
-         "Fact1", "Fact2", "Fact3"
-       ]
+       "text" : "Eine außergewöhnliche Leistung! Sollte die Welt jemals deinem Beispiel folgen, wäre ein großer Schritt zur Rettung unserer Erde getan. Doch das Thema ist zu wichtig, um es Politikern und Wirtschaftsvertretern alleine zu überlassen: Wir sind alle gefragt, die Energiewende mitzugestalten. Das fängt schon beim Stromtarif zuhause an...",
+       "facts" : []
      }
    },
    {
