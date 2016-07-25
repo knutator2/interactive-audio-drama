@@ -17,6 +17,7 @@
 
 .infobox__list {
     font-size: $fontSizeS;
+    margin-top: 20px;
 
     li::before {
         content:"- ";
