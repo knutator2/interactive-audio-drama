@@ -1,84 +1,517 @@
 {
-  "title" : "My Awesome Title",
+  "title" : "Energiewende - machs doch selbst",
   "nodes" : [
    {
      "id": 0,
-     "headline" : "Intro Headline",
-     "backgroundImage" : "./images/background.jpg",
-     "audio" : "./audio/example01.mp3",
+     "headline" : "1949: Die BRD wird gegründet. Wie bauen wir nach dem Krieg die Energiewirtschaft wieder auf?",
+     "backgroundImage" : "./data/images/background.jpg",
+     "audio" : "./data/audio/00.m4a",
      "decisions" : [
        {
-         "label" : "NextLabel1",
+         "label" : "Nutzung fossiler Brennstoffe",
          "targetId" : 1
-       },
-       {
-         "label" : "NextLabel2",
-         "targetId" : 2
        }
      ],
      "infobox" : {
-       "text" : "1. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+       "text" : "Die gegenwärtige Energieproduktion läuft in erster Linie auf Kohlekraft. Momentan gibt es leider keine Alternativen. Zudem ist Deutschland noch mit dem Wiederaufbau nach dem 2. Weltkrieg beschäftigt. Die Bundesrepublik und die DDR beginnen sich erst zu formieren.",
        "facts" : [
-         "Fact1", "Fact2", "Fact3"
+         "Verabschiedung des Grundgesetzes: 23. Mai 1949 ",
+         "primäre Energiequelle: fossile Energieträger, vor allem aber Kohle",
+         "eine Steigerung des Strombedarfs ist wahrscheinlich"
        ]
      }
    },
    {
      "id": 1,
-     "headline" : "Node1",
-     "backgroundImage" : "./images/background.jpg",
-     "audio" : "./audio/example02.mp3",
-     "darkTheme": true,
+     "headline" : "1955: Atomstrom wird nutzbar.",
+     "backgroundImage" : "./data/images/background.jpg",
+     "audio" : "./data/audio/01.m4a",
      "decisions" : [
        {
-         "label" : "NextLabel3",
-         "targetId" : 3
+         "label" : "Atomstrom wird genutzt",
+         "targetId" : 2
        },
        {
-         "label" : "NextLabel4",
+         "label" : "Atomstrom wird abgelehnt, Sicherstellung des Primärenergiebedarfs u.a. durch Importe",
          "targetId" : 3
        }
      ],
      "infobox" : {
-       "text" : "2. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+       "text" : "<p>Eine neue Technologie ist im Kommen: der Atomstrom.</p><p>Er verspricht eine sauberere Produktion von Strom. Außerdem können größere Mengen produziert werden. Die neue Technologie bietet allerdings Risiken.</p><p>Durch den Betrieb eines Atomkraftwerks ist die Umgebung höherer radioaktiver Strahlung ausgesetzt. Kommt es in dem Kraftwerk zu einem Leck, steigt Strahlenbelastung nochmal um eine Vielfaches.</p>",
        "facts" : [
-         "Fact4", "Fact5", "Fact6"
+         "Kernenergie löst das Problem des erhöhten Energiebedarfs",
+         "Gefahr: Erhöhte radioaktive Strahlenbelastung in der Umgebung",
+         "Auswirkung der Strahlen auf den menschlichen Organismus ist noch nicht erforscht"
        ]
      }
    },
    {
      "id": 2,
-     "headline" : "Intro Node2",
-     "backgroundImage" : "./images/background.jpg",
-     "audio" : "./audio/example02.mp3",
+     "headline" : "1968: Erster kommerzieller Atomstrom im Stromnetz (Druckwasserreaktor Obrigheim)",
+     "backgroundImage" : "./data/images/background.jpg",
+     "audio" : "./data/audio/02.m4a",
      "decisions" : [
        {
-         "label" : "NextLabel5",
-         "targetId" : 3
-       },
-       {
-         "label" : "NextLabel6",
-         "targetId" : 3
+         "label" : "Weitermachen",
+         "targetId" : 4
        }
      ],
      "infobox" : {
-       "text" : "3. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+       "text" : "<p>Du hast dich wie die damalige Bundesregierung dazu entschieden auf den Atomstrom zu setzen.</p><p>Erste Erfolge sind bereits zu verzeichnen, sodass der Atomstrom nun wirklich kommerziell nutzbar ist. Sehen wir wie es weitergeht.</p>",
        "facts" : [
-         "Fact7", "Fact8", "Fact9"
+         "erstes kommerzielles Kernkraftwerk in <a href='http://www.atommuellreport.de/daten/akw-obrigheim.html'>Obrigheim</a>",
+         "<a href = 'http://www.bookshop.europa.eu/de/kernkraftwerk-obrigheim.-jahresbericht-1968-pbCDNA04391/downloads/CD-NA-04-391-DE-C/CDNA04391DEC_001.pdf;pgid=y8dIS7GUWMdSR0EAlMEUUsWb0000f9LtnR9c?FileName=CDNA04391DEC_001.pdf&amp;SKU=CDNA04391DEC_PDF&amp;CatalogueNumber=CD-NA-04-391-DE-C'>Bericht</a> zu besonderen Vorkommnissen in Obrigheim",
+         "<a href = 'http://magazin.spiegel.de/EpubDelivery/spiegel/pdf/13494223'>Bericht</a> des Spiegels, dass das AKW Obrigheim ohne Dauerbetriebsgenehmigung lief"
        ]
      }
    },
    {
      "id": 3,
-     "headline" : "Last Headline",
-     "backgroundImage" : "./images/background.jpg",
-     "audio" : "./audio/example01.mp3",
+     "headline" : "Ölkrise, Verteuerung & Endlichkeit der Rohstoffe",
+     "backgroundImage" : "./data/images/background.jpg",
+     "audio" : "./data/audio/03.m4a",
+     "decisions" : [
+       {
+         "label" : "Atomstrom wird genutzt",
+         "targetId" : 4
+       },
+       {
+         "label" : "Förderung deutscher Tagebauten; Subventionen, “Kohlepfennig”",
+         "targetId" : 5
+       }
+     ],
      "infobox" : {
-       "text" : "4. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+       "text" : "<p>Am 17. Oktober 1973 erlässt die Organisation der Staaten die Erdöl exportieren (OPEC) ein Embargo, welches den Ölexport der meisten arabischen Länder drosselt. Dieses soll die westlichen Wirtschaftsmächte, die größtenteils pro-israelisch eingestellt sind, dazu bewegen, Position für die arabischen Länder zu beziehen.</p><p>Dies führte in den westlichen Nationen zu massiven Sparmaßnahmen, deren Andenken uns bis heute als Bilder von leeren Autobahnen begleitet. Aus Angst vor der drohenden Knappheit begann eine Reihe von Panikkäufen im Ölsektor, sodass der Preis für Heizöl von 2,50 Mark auf 20 Mark anstieg (*). Diese Energieknappheit führte zu einem ersten Umdenken in der Energiepolitik.</p>",
        "facts" : [
-         "Fact10", "Fact11", "Fact12"
+         "<a href='https://youtu.be/Ulxe1ie-vEY'>Peak Oil (Youtube)</a>",
+         "(*)<a href='http://www.spiegel.de/spiegel/print/d-41926278.html'>Ölkrise: „Die würden uns auslutschen“ (Spiegel Artikel)</a>",
+         "1973 werden etwa 85% des Weltenergiebedarfs durch fossile Energieträger gedeckt"
        ]
      }
+   },
+   {
+     "id": 4,
+     "headline" : "1986: Tschernobyl Unglück - Ein SPD-Parteitag beschließt den Ausstieg innerhalb von 10 Jahren",
+     "backgroundImage" : "./data/images/background.jpg",
+     "audio" : "./data/audio/04.m4a",
+     "decisions" : [
+       {
+         "label" : "Weitermachen",
+         "targetId" : 6
+       },
+       {
+         "label" : "Einstieg in die staatliche Förderung EE, ein schrittweiser Ausstieg aus der Atomenergie",
+         "targetId" : 10
+       },
+       {
+         "label" : "Förderung deutscher Tagebauten; Subventionen, “Kohlepfennig”",
+         "targetId" : 5
+       }
+     ],
+     "infobox" : {
+       "text" : "Das Unglück von Tschernobyl hat vielen Leuten das erste Mal vor Augen geführt, was für schreckliche Auswirkungen ein Unfall in einem Atomkraftwerk haben kann. Durch die Katastrophe bekam auch die Forschung  zu den Auswirkungen erhöhter radioaktiver Strahlung eine größere Bedeutung (Strahlenkrankheit)",
+       "facts" : [
+         "Das Unglück ereignete sich am 26. April 1986",
+         "Direkte Todesfälle aufgrund der Strahlenkrankheit: 50, die Zahl der Toten nach Folgeerkrankungen aufgrund der erhöhten radioaktiven Strahlung wird auf 9000 geschätzt",
+         "in der Politik begann nach dem Bekanntwerden der Katastrophe das Umdenken, ob weiter auf die Atomenergie gesetzt werden sollte"
+       ]
+     }
+   },
+   {
+     "id": 5,
+     "headline" : "1997: Kyoto-Protokoll",
+     "backgroundImage" : "./data/images/background.jpg",
+     "audio" : "./data/audio/05.m4a",
+     "decisions" : [
+       {
+         "label" : "Einstieg in die staatliche Förderung EE, ein schrittweiser Ausstieg aus der Kohle",
+         "targetId" : 10
+       },
+       {
+         "label" : "Kyoto Protokoll ignorieren. Öl ist der richtige Weg",
+         "targetId" : 23
+       }
+     ],
+     "infobox" : {
+       "text" : "Mit dem Kyoto-Protokoll welches 1997 auf der dritten Vertragsstaatenkonferenz der Klimarahmenkonvention (COP 3) erarbeitet wurde wird das erste völkerrechtlich bindende Dokument zum Schutz des globalen Klimas geschaffen. Die teilnehmenden Staaten verpflichten sich zu einer Reduktion der Emissionen von Treibhausgasen um 5,2% verglichen mit den Werten aus dem Jahr 1990.",
+       "facts" : [
+         "<a href='http://www.bmub.bund.de/fileadmin/bmu-import/files/pdfs/allgemein/application/pdf/protodt.pdf'>Kyoto Protokoll (Quelle: BMUB)</a>",
+         "Die politischen Mühlen mahlen langsam, dass 1997 erstellte Kyoto-Protokoll konnte erst mit der Ratifizierung Russlands 2005 in Kraft treten.",
+         "“Die unter dem Kyoto-Protokoll reglementierten Treibhausgase sind: Kohlendioxid (CO2), Methan (CH4), Distickstoffoxid (N2O), Halogenierte Fluorkohlenwasserstoffe (H-FKW), Fluorkohlenwasserstoffe (FKW) und Schwefelhexafluorid (SF6).” (Quelle: <a href='http://www.umweltbundesamt.de/themen/klima-energie/internationale-eu-klimapolitik/kyoto-protokoll'>Umweltbundesamt</a>)",
+         "<a href='http://www.bmub.bund.de/themen/klima-energie/klimaschutz/internationale-klimapolitik/kyoto-protokoll/'>weitere Informationen</a> vom BMUB"
+       ]
+     }
+   },
+   {
+     "id": 6,
+     "headline" : "2011: Fukushima",
+     "backgroundImage" : "./data/images/background.jpg",
+     "audio" : "./data/audio/06.m4a",
+     "decisions" : [
+       {
+         "label" : "Festhalten an der Kernerergie",
+         "targetId" : 7
+       },
+       {
+         "label" : "sofortiger Atomausstieg",
+         "targetId" : 13
+       }
+     ],
+     "infobox" : {
+       "text" : "Das Unglück von Fukushima hat gezeigt, dass auch große Industienationen wie Japan nicht sicher vor einer nuklearen Katastrophe in einem Atomkraftwerk sind. Nach dem Unglück kam es in viele deutsche Städten zu Demonstrationen mit dem Ziel die Politik zum Ausstieg aus der Atomenergie zu bewegen",
+       "facts" : [
+         "Das Unglück ereignete sich am 11. März 2011",
+         "vorausgegangen war das schwerste Erdbeben in der Geschichte Japans",
+         "die deutsche Politik beschließt den Ausstieg aus der Kernenergie"
+       ]
+     }
+   },
+   {
+     "id": 7,
+     "headline" : "Super GAU",
+     "backgroundImage" : "./data/images/background.jpg",
+     "audio" : "./data/audio/07.m4a",
+     "decisions" : [
+       {
+         "label" : "Nochmal Versuchen",
+         "targetId" : 0
+       },
+       {
+         "label" : "Auf einen besseren Pfad springen (schummeln)",
+         "targetId" : 10
+       }
+     ],
+     "infobox" : {
+       "text" : "Die Energiekatastrophe ist eingetreten, das hast du nicht gut gemanaged. Du hast nun die Möglichkeit, zum Anfang zurückzukehren oder zur Einführung eines <i>Erneuerbare Energien Gesetzes</i> zu wechseln",
+       "facts" : []
+     }
+   },
+   {
+     "id": 8,
+     "headline" : "2015: Klimavertrag von Paris",
+     "backgroundImage" : "./data/images/background.jpg",
+     "audio" : "./data/audio/08.m4a",
+     "decisions" : [
+       {
+         "label" : "weiter wie bisher",
+         "targetId" : 9
+       },
+       {
+         "label" : "sofortiger Kohleausstieg",
+         "targetId" : 12
+       }
+     ],
+     "infobox" : {
+       "text" : "Der Klimavertrag von Paris setzt das Ziel die globale Erwärmung unterhalb von 2°C gegenüber dem vorindustriellen Zeitalter zu halten. Außerdem soll ein Gleichgewicht von CO2-Produktion und -Bindung geschaffen werden. Sogar die USA und China haben eine Ratifizierung noch 2016 zugesagt. Insgesamt haben fast 200 Staaten dem Klimavertrag zugesagt.",
+       "facts" : [
+         "<a href='https://www.tagesschau.de/ausland/klima-paris-abkommen-105.html'>Beitrag</a> der Tagesschau zum Pariser Abkommen",
+         "Ab 2023 sollen die Klimaziele regelmäßig kontrolliert und verschärft werden.",
+         "In einer begleitenden Entscheidung wird das Versprechen der Industrieländer festgehalten, ab 2020 jährlich 100 Milliarden Dollar für arme Staaten bereitzustellen. Diese Summe soll bis 2025 fließen."
+       ]
+     }
+   },
+   {
+     "id": 9,
+     "headline" : "Klimakatastrophe",
+     "backgroundImage" : "./data/images/background.jpg",
+     "audio" : "./data/audio/09.m4a",
+     "decisions" : [
+       {
+         "label" : "Nochmal versuchen",
+         "targetId" : 0
+       },
+       {
+         "label" : "Zu einem besseren Pfad springen (schummeln)",
+         "targetId" : 10
+       }
+     ],
+     "infobox" : {
+       "text" : "Durch den zügellosen Raubbau fossiler Brennstoffe und die andauernde Verschmutzung der Atmosphäre kommt es zu einer exponentiellen Erwärmung der Erdatmosphäre, was zunächst zu einem Anstieg der Meeresspiegel führte und anschließend zum Verdunsten der Meere. Du hast die Chance vertan eine verlässliche Energiepolitik zu fahren. Du hast nun die Möglichkeit noch einmal von vorn anzufangen, oder auf einen anderen Pfad, der Einführung des EEG Gesetzes zu springen.",
+       "facts" : []
+     }
+   },
+   {
+     "id": 10,
+     "headline" : "EEG Entwicklung",
+     "backgroundImage" : "./data/images/background.jpg",
+     "audio" : "./data/audio/10.m4a",
+     "decisions" : [
+       {
+         "label" : "Einige Jahre vorspringen",
+         "targetId" : 11
+       }
+     ],
+     "infobox" : {
+       "text" : "Zweck des <i>Eneuerbare Energien Gesetzes</i> ist es, insbesondere im Interesse des Klima- und Umweltschutzes eine nachhaltige Entwicklung der Energieversorgung zu ermöglichen, die volkswirtschaftlichen Kosten der Energieversorgung auch durch die Einbeziehung langfristiger externer Effekte zu verringern, fossile Energieressourcen zu schonen und die Weiterentwicklung von Technologien zur Erzeugung von Strom aus erneuerbaren Energien zu fördern. Um diesen Zweck zu erreichen, verfolgt das Gesetz das Ziel, den Anteil des aus erneuerbaren Energien erzeugten Stroms am Bruttostromverbrauch stetig und kosteneffizient auf mindestens 80 Prozent bis zum Jahr 2050 zu erhöhen.",
+       "facts" : [
+         "Seit der Einführung des Erneuerbare Energien Gesetz, kurz EEG, konnte der Anteil an erneuerbaren Energien im deutschen Strommix im Jahr 2015 auf 30 % gesteigert werden",
+         "Das EEG wird immer wieder überarbeitet und verändert, das letzte Mal im Jahr 2016",
+         "<a href='http://www.erneuerbare-energien.de/EE/Navigation/DE/Recht-Politik/Das_EEG/DatenFakten/daten-und-fakten.html'>Eine Sammlung</a> mit Informationen und Fakten über das EEG und seine Entwicklung stellt das BMWI zur Verfügung"
+       ]
+     }
+   },
+   {
+     "id": 11,
+     "headline" : "Die EEG Umlage wird teurer, immer mehr Menschen können sich keinen Strom leisten",
+     "backgroundImage" : "./data/images/background.jpg",
+     "audio" : "./data/audio/11.m4a",
+     "decisions" : [
+       {
+         "label" : "Industrieprivileg streichen, es müssen also alle für die Förderung der EE zahlen",
+         "targetId" : 14
+       },
+       {
+         "label" : "konevtionelle Kapazitäten schneller vom Netz nehmen",
+         "targetId" : 15
+       }
+     ],
+     "infobox" : {
+       "text" : "Ob Windparkbetreiber oder Privathaushalt mit Solarzellen auf dem Dach: Wer Strom aus erneuerbarer Energie produziert und ins Netz einspeist, wird gefördert. Das soll dafür sorgen, dass der Anteil von Strom aus Wind, Wasserkraft, Sonne, Erdwärme oder Biomasse sukzessive steigt. Um Anreize zu schaffen, sind Anlagebetreibern die Vergütungssätze ab dem Zeitpunkt der Inbetriebnahme im Erneuerbare-Energien-Gesetz (EEG) staatlich für 20 Jahre garantiert - sie sind also nicht Angebot und Nachfrage überlassen. Die Höhe der Umlage wird von den vier Betreibern der Übertragungsnetze in Deutschland festgelegt. Sie verwalten das Konto, über das die Vergütungszahlungen abgewickelt werden. Dieses ist im Minus, denn Ökostrom lässt sich auf dem freien Markt - an den Strombörsen - nicht zu dem Preis verkaufen, zu dem er von den Anlagebetreibern - gesetzlich festgelegt - eingekauft wird. Denn sogenannter konventioneller Strom - zum Beispiel aus Atomkraftwerken - ist deutlich günstiger und drückt die Preise.  Weil immer mehr Ökostrom auf den Markt kommt, sinkt der erzielbare Preis sogar. Aus der Differenz zwischen Vergütung und Marktpreis ergibt sich die Höhe der Umlage - sie steigt also sogar umso mehr, je günstiger der Strom an den Börsen gehandelt wird. Mit der Begründung, sie international wettbewerbsfähig zu halten, sind viele Unternehmen in sogenannten energieintensiven Industrien von der Umlage freigestellt - Tendenz steigend. Ohne diese Ausnahmeregeln müssten Privatkunden deutlich weniger EEG-Umlage zahlen. Der Bundesverband erneuerbare Energien (BEE) hat errechnet, dass die eigentlichen Förderkosten ohne Ausnahmeregeln im Jahr 2014 nur 2,54 Cent je kWh betragen. (Quelle: <a href='https://www.tagesschau.de/wirtschaft/faq-oekostromumlage100.html'>www.tagesschau.de</a>)",
+       "facts" : [
+         "2.305 Unternehmen waren 2015 sind von der Umlage befreit. Sie profitieren von der “Besonderen Ausgleichsregel”. Damit wurde für eine Strommenge von 106 TWh keine EEG-Umlage bezahlt.",
+         "Wenn viel Wind weht und die Sonne scheint wird manchmal schon so viel Strom produziert, dass der Preis für Strom auf der Börse sogar negativ wird. Das heißt, dass ein Stromproduzent, der Strom verkauft dafür kein Geld bekommt, sondern sogar noch draufzahlt. Das liegt auch daran, dass zu viele Kohle und Kernkraftwerke immer Strom produzieren, auch, wenn dieser nicht gebraucht wird."
+       ]
+     }
+   },
+   {
+     "id": 12,
+     "headline" : "Tausende verlieren ihre Arbeit, Gewerkschaften und Industrie laufen Sturm",
+     "backgroundImage" : "./data/images/background.jpg",
+     "audio" : "./data/audio/12.m4a",
+     "decisions" : [
+       {
+         "label" : "am sofortiger Kohleausstieg festhalten",
+         "targetId" : 13
+       }
+     ],
+     "infobox" : {
+       "text" : "",
+       "facts" : []
+     }
+   },
+   {
+     "id": 13,
+     "headline" : "Es kommt zum Zusammenbruch der Elektrizitätsversorgung, die Versorgungssicherheit ist nicht mehr gewährleistet",
+     "backgroundImage" : "./data/images/background.jpg",
+     "audio" : "./data/audio/13.m4a",
+     "decisions" : [
+       {
+         "label" : "Nochmal versuchen",
+         "targetId" : 0
+       },
+       {
+         "label" : "Auf einen besseren Pfad springen (schummeln)",
+         "targetId" : 10
+       }
+     ],
+     "infobox" : {
+       "text" : "",
+       "facts" : [
+
+       ]
+     }
+   },
+   {
+     "id": 14,
+     "headline" : "Die Wirtschaft protestiert energisch. Doch die Umlage sinkt, da sie auf mehrere Schultern verteilt wird.",
+     "backgroundImage" : "./data/images/background.jpg",
+     "audio" : "./data/audio/14.m4a",
+     "decisions" : [
+       {
+         "label" : "EE werden weiter gefördert, sie sollen jedoch nur ein Teil von vielen im Strommix sein",
+         "targetId" : 16
+       },
+       {
+         "label" : "Die Förderung von EE intensivieren, EE sollen die dominanten Energieträger werden",
+         "targetId" : 17
+       }
+     ],
+     "infobox" : {
+       "text" : "Ein großer Unterschied von fluktuierenden erneuerbaren Energien und konventionellen Kapazitäten ist die Regelbarkeit der Erzeugung. In einem weitestgehend auf erneuerbaren Energien basierenden Elektrizitätsversorgungssystem wird der Strom nicht produziert, wenn er gebraucht wird, sondern wenn der Wind weht und die Sonne scheint. Da sich Strom derzeit noch nicht ausreichend Speichern lässt, gibt es kontroverse Diskussionen, ob die Energieversorgung jemals nur aus erneuerbaren Energiequellen sicherheirgestellt werden kann.",
+       "facts" : [
+         "Schon jetzt verschiebt sich die Lastspitzen aufgrund der Photovoltaikspitze mittags in die Morgen- und Abendstunden.",
+         "Windkraftwerke müssen bereits jetzt gelegentlich abgeregelt werden, da sie zu viel Strom produzieren und die Netzte überlasten."
+       ]
+     }
+   },
+   {
+     "id": 15,
+     "headline" : "Das Stromangebot sinkt, also steigen die Preise. Dies bewirkt jedoch ein Absinken der Ummlage. Für die Kunden wird der Strom also billiger",
+     "backgroundImage" : "./data/images/background.jpg",
+     "audio" : "./data/audio/15.m4a",
+     "decisions" : [
+       {
+         "label" : "EE werden weiter gefördert, sie sollen jedoch nur ein Teil von vielen im Strommix sein",
+         "targetId" : 16
+       },
+       {
+         "label" : "Die Förderung von EE intensivieren, EE sollen die dominanten Energieträger werden",
+         "targetId" : 17
+       }
+     ],
+     "infobox" : {
+       "text" : "Ein großer Unterschied von fluktuierenden erneuerbaren Energien und konventionellen Kapazitäten ist die Regelbarkeit der Erzeugung. In einem weitestgehend auf erneuerbaren Energien basierenden Elektrizitätsversorgungssystem wird der Strom nicht produziert, wenn er gebraucht wird, sondern wenn der Wind weht und die Sonne scheint. Da sich Strom derzeit noch nicht ausreichend Speichern lässt, gibt es kontroverse Diskussionen, ob die Energieversorgung jemals nur aus erneuerbaren Energiequellen sicherheirgestellt werden kann.",
+       "facts" : [
+         "Schon jetzt verschiebt sich die Lastspitzen aufgrund der Photovoltaikspitze mittags in die Morgen- und Abendstunden.",
+         "Windkraftwerke müssen bereits jetzt gelegentlich abgeregelt werden, da sie zu viel Strom produzieren und die Netze überlasten."
+       ]
+     }
+   },
+   {
+     "id": 16,
+     "headline" : "Durch einen nennenswerten Anteil an EE im Strommix sind, zumindest für Deutschland, keine verheerenden Klimaschäden oder Atomunfälle zu erwarten → Für die künftigen Generationen darf hier allerdings nicht halt gemacht werden.",
+     "backgroundImage" : "./data/images/background.jpg",
+     "audio" : "./data/audio/16.m4a",
+     "decisions" : [
+       {
+         "label" : "Nochmal versuchen",
+         "targetId" : 0
+       },
+       {
+         "label" : "Zurück zur Einführung des EEG",
+         "targetId" : 10
+       }
+     ],
+     "infobox" : {
+       "text" : "Traust du dich, den Weg noch ein Stückchen weiter zu gehen?",
+       "facts" : []
+     }
+   },
+   {
+     "id": 17,
+     "headline" : "EE machen mittlerweile einen großen Teil der Stromerzeugung aus. Jedoch fallen Last- und Nachfragespitzen immer weiter auseinander",
+     "backgroundImage" : "./data/images/background.jpg",
+     "audio" : "./data/audio/17.m4a",
+     "decisions" : [
+       {
+         "label" : "Die Netze werden ausgebaut, vor allem um Windstrom aus dem Norden nach Süden zu leiten. Darüber hinaus werden “Smart Grids” und Demand-Side-Management angewandt.",
+         "targetId" : 18
+       },
+       {
+         "label" : "Speicher werden massiv ausgebaut. Power-to-Gas, Druckluftspeicher, Batterien etc. Elektroautos werden in die Speicherinfrastruktur einbezogen.",
+         "targetId" : 19
+       }
+     ],
+     "infobox" : {
+       "text" : "Es gibt eine breite Palette verschiedener Optionen für den Lastausgleich, also den Ausgleich von Stromproduktion und verbrauch. Wichtig sind vor allem die örtliche Verteilung durch die Stromnetze und die Nachfragesteuerung zum Ausgleich der zu erwartenden starken zeitlichen Schwankungen. Zudem können neben regelbaren erneuerbaren Energien (z.B. Biomasse) auch Speichersysteme zur Sicherung der Systemstabilität und vor allem zum Ausgleich längerer meteorologisch bedingter Angebotsausfälle beitragen. In Situationen mit einem extrem hohen Dargebot (Wind & Sonne) und geringer Last können Erneuerbare-Energien-Anlagen außerdem abgeregelt werden.- <i>Sachverständigenrat für Umweltfragen (2013) - Den Strommarkt der Zukunft gestalten</i>",
+       "facts" : [
+         "Da Strom bislang nur in geringem Umfang gespeichert werden kann, müssen sich Erzeugung und Verbrauch zu jeder Zeit exakt entsprechen.",
+         "Die Nachfrage nach Strom unterliegt starken tageszeitlichen und saisonalen Schwankungen.",
+         "Ein zeitliches Auseinanderfallen von Erzeugung und Verbrauch kann aber zu einer Veränderung der Netzfrequenz führen, die Netzinstabilitäten zur Folge haben kann.",
+         "Die erneuerbaren Energien bringen die Herausforderung mit sich, ihre schwankende Erzeugung auszugleichen."
+       ]
+     }
+   },
+   {
+     "id": 18,
+     "headline" : "Erzeugungsspitzen können abgefangen werden, es gibt jedoch Proteste aus der Bevölkerung gegen den Netzausbau",
+     "backgroundImage" : "./data/images/background.jpg",
+     "audio" : "./data/audio/18.m4a",
+     "decisions" : [
+       {
+         "label" : "Speicher werden massiv ausgebaut. Power-to-Gas, Druckluftspeicher, Batterien etc. Elektroautos werden in die Speicherinfrastruktur einbezogen.",
+         "targetId" : 20
+       }
+     ],
+     "infobox" : {
+       "text" : "Die Netzinfrastruktur verbindet Erzeugung und Verbrauch auf den unterschiedlichen Ebenen (Verteilnetz, Hoch- und Höchstspannungsnetz, in Zukunft auch: Overlay-Netz). Sie muss der veränderten Stromerzeugungsstruktur angepasst werden. Es ist dabei zu erwarten, dass es ein Nebeneinander zentraler und dezentraler Erzeugungsstruktur geben wird. Netzverstärkung und Netzausbau sind die erste und wichtigste Flexibilitätsoption: Die möglichst großräumige Vernetzung vielfältigster Leistungs-, Angebots- und Nachfrageprofile sorgt statistisch für einen besseren Ausgleich der Erzeugungs- und Lastspitzen. Die Netzoptimierung ist nicht nur kostengünstiger und schneller zu realisieren als viele Speicherlösungen, sie ist auch die Voraussetzung für den Zugriff auf weitere Flexibilitätsoptionen sowohl auf der Angebots- als auch auf der Nachfrageseite. Insbesondere würde eine Anpassung der Netzinfrastruktur Potenziale für das Lastmanagement erschließen (sog. Smart Grids) und dem gestiegenen Koordinationsaufwand durch die zunehmend dezentrale Einspeisung Rechnung tragen. Die Anpassung der Netzinfrastruktur sollte dabei nicht national beschränkt sein. Vielmehr ist eine europaweite Vernetzung die kostengünstigste Option für eine effiziente Nutzung erneuerbarer Energien. Ein optimiertes paneuropäisches Netz böte die Möglichkeit, ein regional oder technologiebezogen schwankendes Angebot über verschiedene erneuerbare Energien und Regionen übergreifend großräumig auszugleichen. Nicht zuletzt könnte ein Europa überspannendes Netz dazu beitragen, die divergierenden Lastprofile verschiedener europäischer Länder teilweise auszugleichen. - <i>Sachverständigenrat für Umweltfragen (2013) - Den Strommarkt der Zukunft gestalten</i>",
+       "facts" : [
+         "Das deutsche Stromnetz ist inzwischen 1,8 Millionen Kilometer lang. Mit dieser Länge könnte der Äquator 45-mal umrundet werden. Ein Großteil der Leitungen, ca. 80 %, sind unterirdisch verlegt.",
+         "Die überregionalen Höchstspannungsnetze sind in Deutschland 34.810 Kilometer lang.",
+         "Bis 2022 sollen Höchstspannungs-Stromtrassen mit einer Länge von 3.800 Kilometer neu gebaut werden. Vor allem soll damit Windstrom aus dem Norden in die Industriezentren im Süden des Landes transportiert werden."
+       ]
+     }
+   },
+   {
+     "id": 19,
+     "headline" : "Nachfragespitzen können ausgeglichen werden. Die Investitionen in die Spiecher verteuern allerdings den Strom",
+     "backgroundImage" : "./data/images/background.jpg",
+     "audio" : "./data/audio/19.m4a",
+     "decisions" : [
+       {
+         "label" : "Die Netze werden ausgebaut, vor allem um Windstrom aus dem Norden nach Süden zu leiten. Darüber hinaus werden “Smart Grids” und Demand-Side-Management angewandt.",
+         "targetId" : 20
+       }
+     ],
+     "infobox" : {
+       "text" : "Stromspeicher können sehr unterschiedliche Funktionen erfüllen und auf unterschiedlichen Netzebenen zum Einsatz kommen. Je nach Technologie können sie für den kurz-, mittel- und langfristigen Lastausgleich eingesetzt werden, aber auch für die Bereitstellung von Systemdienstleistungen. Die heute verfügbaren Speichertechnologien reichen von kleinen dezentralen Batteriespeichern über Druckluftspeicher hin zu großen zentralen und bereits im Einsatz befindlichen Pumpspeichern. Eine weitere Option stellt die Konversion von Strom in chemische Energieträger dar. Bisher sind die Kosten für Stromspeicher jedoch noch sehr hoch. Es wird aber davon ausgegangen, dass der technologische Fortschritt die Speicher auf absehbare Zeit billiger werden lässt. - <i>Sachverständigenrat für Umweltfragen (2013) - Den Strommarkt der Zukunft gestalten</i>",
+       "facts" : [
+         "Im Jahr 2014 standen im deutschen Stromnetz Speicher mit über 9.500 MW Leistung und einer Stromspeicherkapazitätvon rund 40 Mio. kWh zur Verfügung, darunter fast ausschließlich Pumpspeicherkraftwerke.",
+         "Zum Vergleich: Damit könnte der gesamtdeutsche Stromverbrauch für genau 35 Minuten gedeckt werden."
+       ]
+     }
+   },
+   {
+     "id": 20,
+     "headline" : "Hervorragen: Netze und Speicher werden parallel zum Ausbau der EE gefördert. So kann die Versorgungssicherheit sichergestellt werden.",
+     "backgroundImage" : "./data/images/background.jpg",
+     "audio" : "./data/audio/20.m4a",
+     "decisions" : [
+       {
+         "label" : "Die Energiewende ist mit 80 % Anteil EE abgeschlossen",
+         "targetId" : 21
+       },
+       {
+         "label" : "Förderung von Energieeffizienzmaßnahmen und der Umstellung der Sektoren Verkehr und Wärme auf Strom",
+         "targetId" : 22
+       }
+     ],
+     "infobox" : {
+       "text" : "Die zukünftige Energieversorgung könnte deutlich stärker strombasiert sein. Die  Bereiche Wärme, Verkehr und Industrie weürden dann zukünftig in hohem Maße mit regenerativ erzeugtem Strom versorgt. Dadurch verbreitert sich die Nachfragebasis für Strom und es entstehen bislang nicht verfügbare Flexibilitätspotenziale. Damit ergeben sich etliche Möglichkeiten zum Lastausgleich, indem beispielsweise durch den Wärmesektor Strom abgenommen wird, der erzeugt aber nicht durch direkte Verbraucher nachgefragt wird, und zur zeitlichen Lastverschiebung, etwa wenn Strom in Batterien von Elektrofahrzeugen zwischengespeichert wird. Allerdings ist auch davon auszugehen, dass die Elektrifizierung weiterer Sektoren zu einer zusätzlichen Stromnachfrage führt. Diese zusätzliche Stromnachfrage sollte soweit wie möglich in Zeiten eines Überangebots an regenerativem Strom gedeckt werden. Die derzeitige Wärmebereitstellung in Deutschland verursacht knapp 40 % dergesamten deutschen CO2-Emissionen. Im Zuge ambitionierter Klimaschutzziele sollte auch die Wärmeversorgung der Zukunft auf eine regenerative Basis umgestellt werden. Zwischen 1999 und 2011 ist in Deutschland die Personenverkehrsleistung um 7 % sowie die Güterverkehrsleistung um 31 % angestiegen. Angesichts dieser Entwicklung ist es klimapolitisch notwendig, den Verkehr als einen maßgeblichen Energieverbraucher auf eine nachhaltige Basis zu stellen. Im motorisierten Personen- und Individualverkehr erscheint eine vollständige Elektrifizierung auf Basis erneuerbarer Energien laut Expertenmeinungen durchaus machbar. <i>Sachverständigenrat für Umweltfragen (2013) - Den Strommarkt der Zukunft gestalten</i>",
+       "facts" : [
+         "Laut einer Studie des Fraunhofer Instituts für Solare Energieforschung ISE ließe sich der deutsche Strom- und Wärmebedarf komplett aus regenerativen einheimischen Ressourcen ohne Importe decken.",
+         "Eine Umstellung aller derzeit rund 43 Millionen Personenkraftwagen in Deutschland auf Elektromobilität würde aus gesamtenergetischer Sicht eine Steigerung der Stromnachfrage von bis zu 100 TWh jährlich zur Folge haben."
+       ]
+     }
+   },
+   {
+     "id": 21,
+     "headline" : "Ein absoluter Großteil der Stromversorgung besteht aus EE. Deutschland hat damit ein Vorreiterrolle im Kampf gegen die globale Erwärmung. Sehr gut!",
+     "backgroundImage" : "./data/images/background.jpg",
+     "audio" : "./data/audio/21.m4a",
+     "decisions" : [
+       {
+         "label" : "Nochmal versuchen",
+         "targetId" : 0
+       },
+       {
+         "label" : "Nochmal ein Schritt zurück",
+         "targetId" : 20
+       }
+     ],
+     "infobox" : {
+       "text" : "Du erbringst den Beweis: Die Energiewende ist möglich. Jetzt muss sie nur noch konsequent zu Ende gedacht werden...",
+       "facts" : [
+         "Eine weitgehend (bzw. zu mindestens 80 %) auf erneuerbaren Energien beruhende Elektrizitätsversorgung ist laut den Zielen der Bundesregierung bis zum Jahr 2050 geplant.",
+         "Bis 2030 sollen 27 % des europäischen Stromverbrauchs aus erneuerbaren Energiequellen gedeckt werden."
+       ]
+     }
+   },
+   {
+     "id": 22,
+     "headline" : "Energieeffizienz führt zu einer geringeren Stromnachfrage, die überschüssige Energie wird für die Sektoren Wärme und Verkehr genutzt, die damit ebenfalls ohne Treibhausgasemissionen auskommen. Ein bahnbrechender Beitag zum Klimaschutz und zur Rettung der Erde. Glückwunsch!",
+     "backgroundImage" : "./data/images/background.jpg",
+     "audio" : "./data/audio/22.m4a",
+     "infobox" : {
+       "text" : "Eine außergewöhnliche Leistung! Sollte die Welt jemals deinem Beispiel folgen, wäre ein großer Schritt zur Rettung unserer Erde getan. Doch das Thema ist zu wichtig, um es Politikern und Wirtschaftsvertretern alleine zu überlassen: Wir sind alle gefragt, die Energiewende mitzugestalten. Das fängt schon beim Stromtarif zuhause an...",
+       "facts" : []
+     }
+   },
+   {
+     "id": 23,
+     "headline" : "Das ENERGIEGREMIUM",
+     "backgroundImage" : "./data/images/background.jpg",
+     "audio" : "./data/audio/B01.m4a",
+     "infobox" : {
+       "text" : "Das ist also das Energiegremium. Na dann mal los.",
+       "facts" : []
+     },
+     "decisions" : [
+       {
+         "label" : "Weitermachen",
+         "targetId" : 8
+       }
+     ]
    }
  ]
 }
