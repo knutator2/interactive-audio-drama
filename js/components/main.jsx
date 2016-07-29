@@ -50,13 +50,15 @@ var MainComponent = React.createClass({
                 <HeaderComponent title={this.state.title} />
                 <h3>{currentNode.headline}</h3>
                 <div className="main">
-                    <AudioplayerComponent
-                        audioFile={currentNode.audio}
-                        backgroundImage={currentNode.backgroundImage}
-                        darkTheme={currentNode.darkTheme}
-                        onAudioFinished={this.showDecisions}
-                    />
-
+                    <figure>
+                        <AudioplayerComponent
+                            audioFile={currentNode.audio}
+                            backgroundImage={currentNode.backgroundImage}
+                            darkTheme={currentNode.darkTheme}
+                            onAudioFinished={this.showDecisions}
+                        />
+                        <figcaption dangerouslySetInnerHTML={{__html:currentNode.license}}></figcaption>
+                    </figure>
                     {showDecisionsButton}
 
                     <DecisionComponent
