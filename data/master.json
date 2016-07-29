@@ -17,7 +17,8 @@
        "facts" : [
          "Verabschiedung des Grundgesetzes: 23. Mai 1949 ",
          "primäre Energiequelle: fossile Energieträger, vor allem aber Kohle",
-         "eine Steigerung des Strombedarfs ist wahrscheinlich"
+         "eine Steigerung des Strombedarfs ist wahrscheinlich",
+         "Fabriken brauchen Ressourcen. Es werden zwar keine Ressourcen für die Produktion von erneuerbaren Energien verbraucht, aber für die Herstellung werden seltene Erden benötigt"
        ]
      }
    },
@@ -285,10 +286,8 @@
        }
      ],
      "infobox" : {
-       "text" : "1. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-       "facts" : [
-         "Fact1", "Fact2", "Fact3"
-       ]
+       "text" : "",
+       "facts" : []
      }
    },
    {
@@ -307,9 +306,9 @@
        }
      ],
      "infobox" : {
-       "text" : "1. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+       "text" : "",
        "facts" : [
-         "Fact1", "Fact2", "Fact3"
+
        ]
      }
    },
@@ -376,9 +375,7 @@
      ],
      "infobox" : {
        "text" : "Traust du dich, den Weg noch ein Stückchen weiter zu gehen?",
-       "facts" : [
-         "Fact1", "Fact2", "Fact3"
-       ]
+       "facts" : []
      }
    },
    {
@@ -397,7 +394,7 @@
        }
      ],
      "infobox" : {
-       "text" : "- Es gibt eine breite Palette verschiedener Optionen für den Lastausgleich, also den Ausgleich von Stromproduktion und verbrauch. Wichtig sind vor allem die örtliche Verteilung durch die Stromnetze und die Nachfragesteuerung zum Ausgleich der zu erwartenden starken zeitlichen Schwankungen. Zudem können neben regelbaren erneuerbaren Energien (z.B. Biomasse) auch Speichersysteme zur Sicherung der Systemstabilität und vor allem zum Ausgleich längerer meteorologisch bedingter Angebotsausfälle beitragen. In Situationen mit einem extrem hohen Dargebot (Wind & Sonne) und geringer Last können Erneuerbare-Energien-Anlagen außerdem abgeregelt werden.- <i>Sachverständigenrat für Umweltfragen (2013) - Den Strommarkt der Zukunft gestalten</i>",
+       "text" : "Es gibt eine breite Palette verschiedener Optionen für den Lastausgleich, also den Ausgleich von Stromproduktion und verbrauch. Wichtig sind vor allem die örtliche Verteilung durch die Stromnetze und die Nachfragesteuerung zum Ausgleich der zu erwartenden starken zeitlichen Schwankungen. Zudem können neben regelbaren erneuerbaren Energien (z.B. Biomasse) auch Speichersysteme zur Sicherung der Systemstabilität und vor allem zum Ausgleich längerer meteorologisch bedingter Angebotsausfälle beitragen. In Situationen mit einem extrem hohen Dargebot (Wind & Sonne) und geringer Last können Erneuerbare-Energien-Anlagen außerdem abgeregelt werden.- <i>Sachverständigenrat für Umweltfragen (2013) - Den Strommarkt der Zukunft gestalten</i>",
        "facts" : [
          "Da Strom bislang nur in geringem Umfang gespeichert werden kann, müssen sich Erzeugung und Verbrauch zu jeder Zeit exakt entsprechen.",
          "Die Nachfrage nach Strom unterliegt starken tageszeitlichen und saisonalen Schwankungen.",
@@ -447,7 +444,7 @@
    },
    {
      "id": 20,
-     "headline" : "Hervorragen: Netze und Speicher werden parallel zum Ausbau der EE gefördert. So kann die Versorgungssicherheit sichergestellt werden.",
+     "headline" : "Hervorragend: Netze und Speicher werden parallel zum Ausbau der EE gefördert. So kann die Versorgungssicherheit sichergestellt werden.",
      "backgroundImage" : "./data/images/background.jpg",
      "audio" : "./data/audio/20.m4a",
      "decisions" : [
@@ -484,7 +481,7 @@
        }
      ],
      "infobox" : {
-       "text" : "Du erbringst den Beweis: Die Energiewende ist möglich. Jetzt muss sie nur noch konsequent zu Ende gedacht werden...",
+       "text" : "<p>Du erbringst den Beweis: Die Energiewende ist möglich. Jetzt muss sie nur noch konsequent zu Ende gedacht werden…</p> Es darf jedoch nicht vergessen werden: Auch Technologien zur Erzeugung von Strom aus erneuerbaren Energien können Folgen für die Umwelt haben: Wird Biomasse zur Stromerzeugung angebaut, gehen Ackerflächen für Nahrungsmittel kaputt. Außerdem laugen die schnell wachsenden Monokulturen die Böden aus und werden oft mit vielen Pestizieden behandelt. Windenergieanlagen können eine Gefahr für Vögel darstellen, die in die Rotoren geraten. Beim Bau von Offshore Windparks werden große Träger mit solcher Wucht in den Meeresboden gerammt, dass der entstehende Lärm Meerestiere wie etwa Schweinswale temporär taub machen kann. Auch die Entsorgung von alten Windenergieanlagen ist ein noch nicht abschließend gelöstes Problem.  Bei der Photovoltaik liegen die Probleme vor allem in den Rohstoffen und der Energie, die zur Herstellung benötigt werden.",
        "facts" : [
          "Eine weitgehend (bzw. zu mindestens 80 %) auf erneuerbaren Energien beruhende Elektrizitätsversorgung ist laut den Zielen der Bundesregierung bis zum Jahr 2050 geplant.",
          "Bis 2030 sollen 27 % des europäischen Stromverbrauchs aus erneuerbaren Energiequellen gedeckt werden."
@@ -497,7 +494,7 @@
      "backgroundImage" : "./data/images/background.jpg",
      "audio" : "./data/audio/22.m4a",
      "infobox" : {
-       "text" : "Eine außergewöhnliche Leistung! Sollte die Welt jemals deinem Beispiel folgen, wäre ein großer Schritt zur Rettung unserer Erde getan. Doch das Thema ist zu wichtig, um es Politikern und Wirtschaftsvertretern alleine zu überlassen: Wir sind alle gefragt, die Energiewende mitzugestalten. Das fängt schon beim Stromtarif zuhause an...",
+       "text" : "Eine außergewöhnliche Leistung! Sollte die Welt jemals deinem Beispiel folgen, wäre ein großer Schritt zur Rettung unserer Erde getan. Doch das Thema ist zu wichtig, um es Politikern und Wirtschaftsvertretern alleine zu überlassen: Wir sind alle gefragt, die Energiewende mitzugestalten. Das fängt schon beim Stromtarif zuhause an…</p><p>Es darf jedoch nicht vergessen werden: Auch Technologien zur Erzeugung von Strom aus erneuerbaren Energien können Folgen für die Umwelt haben: Wird Biomasse zur Stromerzeugung angebaut, gehen Ackerflächen für Nahrungsmittel kaputt. Außerdem laugen die schnell wachsenden Monokulturen die Böden aus und werden oft mit vielen Pestizieden behandelt. Windenergieanlagen können eine Gefahr für Vögel darstellen, die in die Rotoren geraten. Beim Bau von Offshore Windparks werden große Träger mit solcher Wucht in den Meeresboden gerammt, dass der entstehende Lärm Meerestiere wie etwa Schweinswale temporär taub machen kann. Auch die Entsorgung von alten Windenergieanlagen ist ein noch nicht abschließend gelöstes Problem.  Bei der Photovoltaik liegen die Probleme vor allem in den Rohstoffen und der Energie, die zur Herstellung benötigt werden.</p>",
        "facts" : []
      }
    },
